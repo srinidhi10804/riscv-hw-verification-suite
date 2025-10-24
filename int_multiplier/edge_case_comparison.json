@@ -1,0 +1,274 @@
+{
+  "summary": {
+    "total_bsv_cases": 92,
+    "total_ai_cases": 136,
+    "covered_cases": 87,
+    "missed_cases": 5,
+    "coverage_percentage": 94.56521739130434
+  },
+  "bsv_categories": {
+    "zero": 16,
+    "signed_boundary": 20,
+    "unsigned_boundary": 1,
+    "word32_sign_extend": 16,
+    "bit_extraction": 4,
+    "sign_mixing": 3,
+    "power_of_2": 32,
+    "carry_propagation": 3,
+    "single_bit": 5
+  },
+  "missed_cases": [
+    {
+      "op1": 9223372036854775807,
+      "op2": -1,
+      "funct3": 0,
+      "word32": false,
+      "category": "signed_boundary",
+      "description": "MaxInt \u00d7 -1 - sign flip",
+      "source": "bsv",
+      "edge_type": "neg_one_sign_transition_bit_pattern_special"
+    },
+    {
+      "op1": 9223372036854775807,
+      "op2": -1,
+      "funct3": 3,
+      "word32": false,
+      "category": "signed_boundary",
+      "description": "MaxInt \u00d7 -1 - sign flip",
+      "source": "bsv",
+      "edge_type": "neg_one_sign_transition_bit_pattern_special"
+    },
+    {
+      "op1": 18446744073709551615,
+      "op2": 18446744073709551615,
+      "funct3": 3,
+      "word32": false,
+      "category": "unsigned_boundary",
+      "description": "MaxUnsigned \u00d7 MaxUnsigned",
+      "source": "bsv",
+      "edge_type": "max_unsigned_overflow_risk_bit_pattern_special"
+    },
+    {
+      "op1": 9223372036854775807,
+      "op2": -1,
+      "funct3": 1,
+      "word32": false,
+      "category": "signed_boundary",
+      "description": "MaxInt \u00d7 -1 - sign flip",
+      "source": "bsv",
+      "edge_type": "neg_one_sign_transition_bit_pattern_special"
+    },
+    {
+      "op1": 9223372036854775807,
+      "op2": -1,
+      "funct3": 2,
+      "word32": false,
+      "category": "signed_boundary",
+      "description": "MaxInt \u00d7 -1 - sign flip",
+      "source": "bsv",
+      "edge_type": "neg_one_sign_transition_bit_pattern_special"
+    }
+  ],
+  "covered_cases": [
+    {
+      "op1": 0,
+      "op2": 18446744073709551615,
+      "funct3": 2,
+      "word32": true,
+      "category": "zero",
+      "description": "Zero \u00d7 Max",
+      "source": "bsv",
+      "edge_type": "zero_max_unsigned"
+    },
+    {
+      "op1": 0,
+      "op2": 18446744073709551615,
+      "funct3": 0,
+      "word32": false,
+      "category": "zero",
+      "description": "Zero \u00d7 Max",
+      "source": "bsv",
+      "edge_type": "zero_max_unsigned"
+    },
+    {
+      "op1": -9223372036854775808,
+      "op2": 1,
+      "funct3": 2,
+      "word32": false,
+      "category": "signed_boundary",
+      "description": "MinInt \u00d7 1 - sign preservation",
+      "source": "bsv",
+      "edge_type": "min_max_int_power_of_2_sign_transition_bit_pattern_special"
+    },
+    {
+      "op1": 16,
+      "op2": 16,
+      "funct3": 2,
+      "word32": false,
+      "category": "power_of_2",
+      "description": "2^4 \u00d7 2^4",
+      "source": "bsv",
+      "edge_type": "power_of_2_power_of_2_bit_pattern_special"
+    },
+    {
+      "op1": 0,
+      "op2": 0,
+      "funct3": 0,
+      "word32": true,
+      "category": "zero",
+      "description": "Zero \u00d7 Zero",
+      "source": "bsv",
+      "edge_type": "zero"
+    },
+    {
+      "op1": -9223372036854775808,
+      "op2": -9223372036854775808,
+      "funct3": 2,
+      "word32": false,
+      "category": "signed_boundary",
+      "description": "MinInt \u00d7 MinInt - overflow",
+      "source": "bsv",
+      "edge_type": "min_max_int_overflow_risk_bit_pattern_special"
+    },
+    {
+      "op1": 4294967296,
+      "op2": 4294967296,
+      "funct3": 0,
+      "word32": false,
+      "category": "power_of_2",
+      "description": "2^32 \u00d7 2^32",
+      "source": "bsv",
+      "edge_type": "power_of_2_power_of_2_bit_pattern_special"
+    },
+    {
+      "op1": 2,
+      "op2": 2,
+      "funct3": 3,
+      "word32": false,
+      "category": "power_of_2",
+      "description": "2^1 \u00d7 2^1",
+      "source": "bsv",
+      "edge_type": "power_of_2_power_of_2_bit_pattern_special"
+    },
+    {
+      "op1": 9223372036854775807,
+      "op2": 9223372036854775807,
+      "funct3": 1,
+      "word32": false,
+      "category": "signed_boundary",
+      "description": "MaxInt \u00d7 MaxInt",
+      "source": "bsv",
+      "edge_type": "overflow_risk_bit_pattern_special"
+    },
+    {
+      "op1": 2,
+      "op2": 2,
+      "funct3": 1,
+      "word32": false,
+      "category": "single_bit",
+      "description": "Bit 1 set",
+      "source": "bsv",
+      "edge_type": "power_of_2_power_of_2_bit_pattern_special"
+    },
+    {
+      "op1": 9223372036854775808,
+      "op2": 9223372036854775808,
+      "funct3": 0,
+      "word32": false,
+      "category": "power_of_2",
+      "description": "2^63 \u00d7 2^63",
+      "source": "bsv",
+      "edge_type": "min_max_int_power_of_2_power_of_2_overflow_risk_bit_pattern_special"
+    },
+    {
+      "op1": 2147483648,
+      "op2": 2147483648,
+      "funct3": 2,
+      "word32": true,
+      "category": "word32_sign_extend",
+      "description": "Word32: Min negative 32-bit (sign bit)",
+      "source": "bsv",
+      "edge_type": "power_of_2_power_of_2_bit_pattern_special"
+    },
+    {
+      "op1": -9223372036854775808,
+      "op2": -1,
+      "funct3": 1,
+      "word32": false,
+      "category": "signed_boundary",
+      "description": "MinInt \u00d7 -1 - two's complement edge",
+      "source": "bsv",
+      "edge_type": "neg_one_min_max_int_bit_pattern_special"
+    },
+    {
+      "op1": 4294967295,
+      "op2": 4294967295,
+      "funct3": 0,
+      "word32": true,
+      "category": "word32_sign_extend",
+      "description": "Word32: All ones 32-bit",
+      "source": "bsv",
+      "edge_type": "general"
+    },
+    {
+      "op1": 4,
+      "op2": 4,
+      "funct3": 2,
+      "word32": false,
+      "category": "power_of_2",
+      "description": "2^2 \u00d7 2^2",
+      "source": "bsv",
+      "edge_type": "power_of_2_power_of_2_bit_pattern_special"
+    },
+    {
+      "op1": 2147483647,
+      "op2": 2147483647,
+      "funct3": 2,
+      "word32": true,
+      "category": "word32_sign_extend",
+      "description": "Word32: Max positive 32-bit",
+      "source": "bsv",
+      "edge_type": "general"
+    },
+    {
+      "op1": -9223372036854775808,
+      "op2": -1,
+      "funct3": 3,
+      "word32": false,
+      "category": "signed_boundary",
+      "description": "MinInt \u00d7 -1 - two's complement edge",
+      "source": "bsv",
+      "edge_type": "neg_one_min_max_int_bit_pattern_special"
+    },
+    {
+      "op1": 2,
+      "op2": 2,
+      "funct3": 2,
+      "word32": false,
+      "category": "power_of_2",
+      "description": "2^1 \u00d7 2^1",
+      "source": "bsv",
+      "edge_type": "power_of_2_power_of_2_bit_pattern_special"
+    },
+    {
+      "op1": 256,
+      "op2": 256,
+      "funct3": 0,
+      "word32": false,
+      "category": "power_of_2",
+      "description": "2^8 \u00d7 2^8",
+      "source": "bsv",
+      "edge_type": "power_of_2_power_of_2_bit_pattern_special"
+    },
+    {
+      "op1": 65536,
+      "op2": 65536,
+      "funct3": 3,
+      "word32": false,
+      "category": "power_of_2",
+      "description": "2^16 \u00d7 2^16",
+      "source": "bsv",
+      "edge_type": "power_of_2_power_of_2_bit_pattern_special"
+    }
+  ]
+}

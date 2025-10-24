@@ -1,0 +1,244 @@
+{
+  "summary": {
+    "total_bsv_cases": 230,
+    "total_ai_cases": 250,
+    "covered_cases": 230,
+    "missed_cases": 0,
+    "coverage_percentage": 100.0,
+    "target_achieved": true
+  },
+  "bsv_categories": {
+    "div_by_zero_critical": 40,
+    "zero_dividend_critical": 24,
+    "overflow_critical": 4,
+    "equal_operands_critical": 48,
+    "power_of_2_critical": 72,
+    "boundary_critical": 32,
+    "sign_transition_critical": 16,
+    "word32_sign_extend_critical": 16,
+    "leading_zeros_critical": 6
+  },
+  "missed_cases": [],
+  "covered_cases_sample": [
+    {
+      "dividend": 9223372036854775807,
+      "divisor": 9223372036854775807,
+      "operation": "DIVW",
+      "funct3": 4,
+      "opcode": 14,
+      "category": "equal_operands_critical",
+      "description": "DIVW: 0x7fffffffffffffff / 0x7fffffffffffffff",
+      "source": "bsv",
+      "edge_type": "equal_operands_boundary_dividend_boundary_divisor_word32_operation"
+    },
+    {
+      "dividend": 9223372036854775808,
+      "divisor": 0,
+      "operation": "REMW",
+      "funct3": 6,
+      "opcode": 14,
+      "category": "div_by_zero_critical",
+      "description": "REMW: Dividend=0x8000000000000000 / 0",
+      "source": "bsv",
+      "edge_type": "div_by_zero_power_of_2_dividend_boundary_dividend_sign_transition_word32_operation"
+    },
+    {
+      "dividend": 16,
+      "divisor": 16,
+      "operation": "DIVW",
+      "funct3": 4,
+      "opcode": 14,
+      "category": "power_of_2_critical",
+      "description": "DIVW: 2^4 / 2^4",
+      "source": "bsv",
+      "edge_type": "equal_operands_power_of_2_dividend_power_of_2_divisor_word32_operation"
+    },
+    {
+      "dividend": 1,
+      "divisor": 18446744073709551615,
+      "operation": "DIVUW",
+      "funct3": 5,
+      "opcode": 14,
+      "category": "boundary_critical",
+      "description": "DIVUW: 1 / MAX",
+      "source": "bsv",
+      "edge_type": "power_of_2_dividend_boundary_dividend_boundary_divisor_word32_operation"
+    },
+    {
+      "dividend": 18446744073709551615,
+      "divisor": 1,
+      "operation": "REMUW",
+      "funct3": 7,
+      "opcode": 14,
+      "category": "boundary_critical",
+      "description": "REMUW: MAX / 1",
+      "source": "bsv",
+      "edge_type": "power_of_2_divisor_boundary_dividend_boundary_divisor_word32_operation"
+    },
+    {
+      "dividend": 9223372036854775807,
+      "divisor": 0,
+      "operation": "REMUW",
+      "funct3": 7,
+      "opcode": 14,
+      "category": "div_by_zero_critical",
+      "description": "REMUW: Dividend=0x7fffffffffffffff / 0",
+      "source": "bsv",
+      "edge_type": "div_by_zero_boundary_dividend_word32_operation"
+    },
+    {
+      "dividend": 0,
+      "divisor": 1,
+      "operation": "REMW",
+      "funct3": 6,
+      "opcode": 14,
+      "category": "zero_dividend_critical",
+      "description": "REMW: 0 / 0x1",
+      "source": "bsv",
+      "edge_type": "zero_dividend_power_of_2_divisor_boundary_divisor_word32_operation"
+    },
+    {
+      "dividend": 4294967296,
+      "divisor": 4294967296,
+      "operation": "REMUW",
+      "funct3": 7,
+      "opcode": 14,
+      "category": "power_of_2_critical",
+      "description": "REMUW: 2^32 / 2^32",
+      "source": "bsv",
+      "edge_type": "equal_operands_power_of_2_dividend_power_of_2_divisor_word32_operation"
+    },
+    {
+      "dividend": 1,
+      "divisor": 0,
+      "operation": "DIVU",
+      "funct3": 5,
+      "opcode": 12,
+      "category": "div_by_zero_critical",
+      "description": "DIVU: Dividend=0x1 / 0",
+      "source": "bsv",
+      "edge_type": "div_by_zero_power_of_2_dividend_boundary_dividend"
+    },
+    {
+      "dividend": 0,
+      "divisor": 2,
+      "operation": "DIVW",
+      "funct3": 4,
+      "opcode": 14,
+      "category": "zero_dividend_critical",
+      "description": "DIVW: 0 / 0x2",
+      "source": "bsv",
+      "edge_type": "zero_dividend_power_of_2_divisor_word32_operation"
+    },
+    {
+      "dividend": 9223372036854775807,
+      "divisor": 0,
+      "operation": "REMU",
+      "funct3": 7,
+      "opcode": 12,
+      "category": "div_by_zero_critical",
+      "description": "REMU: Dividend=0x7fffffffffffffff / 0",
+      "source": "bsv",
+      "edge_type": "div_by_zero_boundary_dividend"
+    },
+    {
+      "dividend": 2147483648,
+      "divisor": 4294967295,
+      "operation": "DIVW",
+      "funct3": 4,
+      "opcode": 14,
+      "category": "overflow_critical",
+      "description": "DIVW: 32-bit overflow - 0x80000000 / 0xffffffff",
+      "source": "bsv",
+      "edge_type": "overflow_32bit_power_of_2_dividend_word32_operation"
+    },
+    {
+      "dividend": 9223372036854775807,
+      "divisor": 9223372036854775807,
+      "operation": "DIVUW",
+      "funct3": 5,
+      "opcode": 14,
+      "category": "equal_operands_critical",
+      "description": "DIVUW: 0x7fffffffffffffff / 0x7fffffffffffffff",
+      "source": "bsv",
+      "edge_type": "equal_operands_boundary_dividend_boundary_divisor_word32_operation"
+    },
+    {
+      "dividend": 9223372036854775807,
+      "divisor": 2,
+      "operation": "DIVU",
+      "funct3": 5,
+      "opcode": 12,
+      "category": "boundary_critical",
+      "description": "DIVU: MaxInt / 2",
+      "source": "bsv",
+      "edge_type": "power_of_2_divisor_boundary_dividend"
+    },
+    {
+      "dividend": 4294967296,
+      "divisor": 4294967296,
+      "operation": "REMW",
+      "funct3": 6,
+      "opcode": 14,
+      "category": "power_of_2_critical",
+      "description": "REMW: 2^32 / 2^32",
+      "source": "bsv",
+      "edge_type": "equal_operands_power_of_2_dividend_power_of_2_divisor_word32_operation"
+    },
+    {
+      "dividend": 256,
+      "divisor": 256,
+      "operation": "REMU",
+      "funct3": 7,
+      "opcode": 12,
+      "category": "power_of_2_critical",
+      "description": "REMU: 2^8 / 2^8",
+      "source": "bsv",
+      "edge_type": "equal_operands_power_of_2_dividend_power_of_2_divisor"
+    },
+    {
+      "dividend": 9223372036854775808,
+      "divisor": 1,
+      "operation": "DIVU",
+      "funct3": 5,
+      "opcode": 12,
+      "category": "leading_zeros_critical",
+      "description": "DIVU: Many leading zeros in divisor",
+      "source": "bsv",
+      "edge_type": "power_of_2_dividend_power_of_2_divisor_boundary_dividend_boundary_divisor"
+    },
+    {
+      "dividend": 4294967295,
+      "divisor": 4294967295,
+      "operation": "DIVUW",
+      "funct3": 5,
+      "opcode": 14,
+      "category": "word32_sign_extend_critical",
+      "description": "DIVUW: AllOnes32 / AllOnes32",
+      "source": "bsv",
+      "edge_type": "equal_operands_word32_operation"
+    },
+    {
+      "dividend": 1,
+      "divisor": 1,
+      "operation": "DIVU",
+      "funct3": 5,
+      "opcode": 12,
+      "category": "power_of_2_critical",
+      "description": "DIVU: 2^0 / 2^0",
+      "source": "bsv",
+      "edge_type": "equal_operands_power_of_2_dividend_power_of_2_divisor_boundary_dividend_boundary_divisor"
+    },
+    {
+      "dividend": 256,
+      "divisor": 256,
+      "operation": "REM",
+      "funct3": 6,
+      "opcode": 12,
+      "category": "power_of_2_critical",
+      "description": "REM: 2^8 / 2^8",
+      "source": "bsv",
+      "edge_type": "equal_operands_power_of_2_dividend_power_of_2_divisor"
+    }
+  ]
+}

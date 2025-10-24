@@ -1,0 +1,1706 @@
+[
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 0,
+    "word32": false,
+    "description": "Zero\u00d7Zero f3=0 w32=False",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 18446744073709551615,
+    "funct3": 0,
+    "word32": false,
+    "description": "Zero\u00d7MaxVal f3=0 w32=False",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 1,
+    "word32": false,
+    "description": "Zero\u00d7Zero f3=1 w32=False",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 18446744073709551615,
+    "funct3": 1,
+    "word32": false,
+    "description": "Zero\u00d7MaxVal f3=1 w32=False",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 2,
+    "word32": false,
+    "description": "Zero\u00d7Zero f3=2 w32=False",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 18446744073709551615,
+    "funct3": 2,
+    "word32": false,
+    "description": "Zero\u00d7MaxVal f3=2 w32=False",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 3,
+    "word32": false,
+    "description": "Zero\u00d7Zero f3=3 w32=False",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 18446744073709551615,
+    "funct3": 3,
+    "word32": false,
+    "description": "Zero\u00d7MaxVal f3=3 w32=False",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 0,
+    "word32": true,
+    "description": "Zero\u00d7Zero f3=0 w32=True",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 18446744073709551615,
+    "funct3": 0,
+    "word32": true,
+    "description": "Zero\u00d7MaxVal f3=0 w32=True",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 1,
+    "word32": true,
+    "description": "Zero\u00d7Zero f3=1 w32=True",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 18446744073709551615,
+    "funct3": 1,
+    "word32": true,
+    "description": "Zero\u00d7MaxVal f3=1 w32=True",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 2,
+    "word32": true,
+    "description": "Zero\u00d7Zero f3=2 w32=True",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 18446744073709551615,
+    "funct3": 2,
+    "word32": true,
+    "description": "Zero\u00d7MaxVal f3=2 w32=True",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 3,
+    "word32": true,
+    "description": "Zero\u00d7Zero f3=3 w32=True",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 18446744073709551615,
+    "funct3": 3,
+    "word32": true,
+    "description": "Zero\u00d7MaxVal f3=3 w32=True",
+    "category": "zero_critical"
+  },
+  {
+    "op1": 2147483647,
+    "op2": 2147483647,
+    "funct3": 0,
+    "word32": true,
+    "description": "Word32 MaxInt32 f3=0",
+    "category": "word32_critical"
+  },
+  {
+    "op1": 2147483647,
+    "op2": 2147483647,
+    "funct3": 1,
+    "word32": true,
+    "description": "Word32 MaxInt32 f3=1",
+    "category": "word32_critical"
+  },
+  {
+    "op1": 2147483647,
+    "op2": 2147483647,
+    "funct3": 2,
+    "word32": true,
+    "description": "Word32 MaxInt32 f3=2",
+    "category": "word32_critical"
+  },
+  {
+    "op1": 2147483647,
+    "op2": 2147483647,
+    "funct3": 3,
+    "word32": true,
+    "description": "Word32 MaxInt32 f3=3",
+    "category": "word32_critical"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 0,
+    "word32": true,
+    "description": "Word32 MinInt32_SignBit f3=0",
+    "category": "word32_critical"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 1,
+    "word32": true,
+    "description": "Word32 MinInt32_SignBit f3=1",
+    "category": "word32_critical"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 2,
+    "word32": true,
+    "description": "Word32 MinInt32_SignBit f3=2",
+    "category": "word32_critical"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 3,
+    "word32": true,
+    "description": "Word32 MinInt32_SignBit f3=3",
+    "category": "word32_critical"
+  },
+  {
+    "op1": 4294967295,
+    "op2": 4294967295,
+    "funct3": 0,
+    "word32": true,
+    "description": "Word32 AllOnes32 f3=0",
+    "category": "word32_critical"
+  },
+  {
+    "op1": 4294967295,
+    "op2": 4294967295,
+    "funct3": 1,
+    "word32": true,
+    "description": "Word32 AllOnes32 f3=1",
+    "category": "word32_critical"
+  },
+  {
+    "op1": 4294967295,
+    "op2": 4294967295,
+    "funct3": 2,
+    "word32": true,
+    "description": "Word32 AllOnes32 f3=2",
+    "category": "word32_critical"
+  },
+  {
+    "op1": 4294967295,
+    "op2": 4294967295,
+    "funct3": 3,
+    "word32": true,
+    "description": "Word32 AllOnes32 f3=3",
+    "category": "word32_critical"
+  },
+  {
+    "op1": -1,
+    "op2": 2147483647,
+    "funct3": 0,
+    "word32": true,
+    "description": "Word32 NegOne_SignExt f3=0",
+    "category": "word32_critical"
+  },
+  {
+    "op1": -1,
+    "op2": 2147483647,
+    "funct3": 1,
+    "word32": true,
+    "description": "Word32 NegOne_SignExt f3=1",
+    "category": "word32_critical"
+  },
+  {
+    "op1": -1,
+    "op2": 2147483647,
+    "funct3": 2,
+    "word32": true,
+    "description": "Word32 NegOne_SignExt f3=2",
+    "category": "word32_critical"
+  },
+  {
+    "op1": -1,
+    "op2": 2147483647,
+    "funct3": 3,
+    "word32": true,
+    "description": "Word32 NegOne_SignExt f3=3",
+    "category": "word32_critical"
+  },
+  {
+    "op1": 2,
+    "op2": 2,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^1\u00d72^1 f3=0",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 2,
+    "op2": 2,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^1\u00d72^1 f3=1",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 2,
+    "op2": 2,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^1\u00d72^1 f3=2",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 2,
+    "op2": 2,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^1\u00d72^1 f3=3",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 4,
+    "op2": 4,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^2\u00d72^2 f3=0",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 4,
+    "op2": 4,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^2\u00d72^2 f3=1",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 4,
+    "op2": 4,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^2\u00d72^2 f3=2",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 4,
+    "op2": 4,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^2\u00d72^2 f3=3",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 16,
+    "op2": 16,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^4\u00d72^4 f3=0",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 16,
+    "op2": 16,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^4\u00d72^4 f3=1",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 16,
+    "op2": 16,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^4\u00d72^4 f3=2",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 16,
+    "op2": 16,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^4\u00d72^4 f3=3",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 256,
+    "op2": 256,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^8\u00d72^8 f3=0",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 256,
+    "op2": 256,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^8\u00d72^8 f3=1",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 256,
+    "op2": 256,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^8\u00d72^8 f3=2",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 256,
+    "op2": 256,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^8\u00d72^8 f3=3",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 65536,
+    "op2": 65536,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^16\u00d72^16 f3=0",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 65536,
+    "op2": 65536,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^16\u00d72^16 f3=1",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 65536,
+    "op2": 65536,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^16\u00d72^16 f3=2",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 65536,
+    "op2": 65536,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^16\u00d72^16 f3=3",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^31\u00d72^31 f3=0",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^31\u00d72^31 f3=1",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^31\u00d72^31 f3=2",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^31\u00d72^31 f3=3",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 4294967296,
+    "op2": 4294967296,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^32\u00d72^32 f3=0",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 4294967296,
+    "op2": 4294967296,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^32\u00d72^32 f3=1",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 4294967296,
+    "op2": 4294967296,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^32\u00d72^32 f3=2",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 4294967296,
+    "op2": 4294967296,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^32\u00d72^32 f3=3",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 9223372036854775808,
+    "op2": 9223372036854775808,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^63\u00d72^63 f3=0",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 9223372036854775808,
+    "op2": 9223372036854775808,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^63\u00d72^63 f3=1",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 9223372036854775808,
+    "op2": 9223372036854775808,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^63\u00d72^63 f3=2",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 9223372036854775808,
+    "op2": 9223372036854775808,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^63\u00d72^63 f3=3",
+    "category": "power2_critical"
+  },
+  {
+    "op1": 12297829382473034410,
+    "op2": 6148914691236517205,
+    "funct3": 0,
+    "word32": false,
+    "description": "Carry AlternatingBits f3=0",
+    "category": "carry_critical"
+  },
+  {
+    "op1": 12297829382473034410,
+    "op2": 6148914691236517205,
+    "funct3": 1,
+    "word32": false,
+    "description": "Carry AlternatingBits f3=1",
+    "category": "carry_critical"
+  },
+  {
+    "op1": 12297829382473034410,
+    "op2": 6148914691236517205,
+    "funct3": 2,
+    "word32": false,
+    "description": "Carry AlternatingBits f3=2",
+    "category": "carry_critical"
+  },
+  {
+    "op1": 12297829382473034410,
+    "op2": 6148914691236517205,
+    "funct3": 3,
+    "word32": false,
+    "description": "Carry AlternatingBits f3=3",
+    "category": "carry_critical"
+  },
+  {
+    "op1": 18446744069414584320,
+    "op2": 4294967295,
+    "funct3": 0,
+    "word32": false,
+    "description": "Carry UpperLowerSplit f3=0",
+    "category": "carry_critical"
+  },
+  {
+    "op1": 18446744069414584320,
+    "op2": 4294967295,
+    "funct3": 1,
+    "word32": false,
+    "description": "Carry UpperLowerSplit f3=1",
+    "category": "carry_critical"
+  },
+  {
+    "op1": 18446744069414584320,
+    "op2": 4294967295,
+    "funct3": 2,
+    "word32": false,
+    "description": "Carry UpperLowerSplit f3=2",
+    "category": "carry_critical"
+  },
+  {
+    "op1": 18446744069414584320,
+    "op2": 4294967295,
+    "funct3": 3,
+    "word32": false,
+    "description": "Carry UpperLowerSplit f3=3",
+    "category": "carry_critical"
+  },
+  {
+    "op1": 81985529216486895,
+    "op2": 18364758544493064720,
+    "funct3": 0,
+    "word32": false,
+    "description": "Carry Sequential f3=0",
+    "category": "carry_critical"
+  },
+  {
+    "op1": 81985529216486895,
+    "op2": 18364758544493064720,
+    "funct3": 1,
+    "word32": false,
+    "description": "Carry Sequential f3=1",
+    "category": "carry_critical"
+  },
+  {
+    "op1": 81985529216486895,
+    "op2": 18364758544493064720,
+    "funct3": 2,
+    "word32": false,
+    "description": "Carry Sequential f3=2",
+    "category": "carry_critical"
+  },
+  {
+    "op1": 81985529216486895,
+    "op2": 18364758544493064720,
+    "funct3": 3,
+    "word32": false,
+    "description": "Carry Sequential f3=3",
+    "category": "carry_critical"
+  },
+  {
+    "op1": -1,
+    "op2": 18446744073709551615,
+    "funct3": 2,
+    "word32": false,
+    "description": "MULHSU NegOne\u00d7MaxUnsigned",
+    "category": "sign_mix_critical"
+  },
+  {
+    "op1": -9223372036854775808,
+    "op2": 18446744073709551615,
+    "funct3": 2,
+    "word32": false,
+    "description": "MULHSU MinInt\u00d7MaxUnsigned",
+    "category": "sign_mix_critical"
+  },
+  {
+    "op1": -1,
+    "op2": 1,
+    "funct3": 2,
+    "word32": false,
+    "description": "MULHSU NegOne\u00d7One",
+    "category": "sign_mix_critical"
+  },
+  {
+    "op1": 1,
+    "op2": 1,
+    "funct3": 0,
+    "word32": false,
+    "description": "Bit0 f3=0",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 1,
+    "op2": 1,
+    "funct3": 1,
+    "word32": false,
+    "description": "Bit0 f3=1",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 1,
+    "op2": 1,
+    "funct3": 2,
+    "word32": false,
+    "description": "Bit0 f3=2",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 1,
+    "op2": 1,
+    "funct3": 3,
+    "word32": false,
+    "description": "Bit0 f3=3",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 2,
+    "op2": 2,
+    "funct3": 0,
+    "word32": false,
+    "description": "Bit1 f3=0",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 2,
+    "op2": 2,
+    "funct3": 1,
+    "word32": false,
+    "description": "Bit1 f3=1",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 2,
+    "op2": 2,
+    "funct3": 2,
+    "word32": false,
+    "description": "Bit1 f3=2",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 2,
+    "op2": 2,
+    "funct3": 3,
+    "word32": false,
+    "description": "Bit1 f3=3",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 0,
+    "word32": false,
+    "description": "Bit31 f3=0",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 1,
+    "word32": false,
+    "description": "Bit31 f3=1",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 2,
+    "word32": false,
+    "description": "Bit31 f3=2",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 3,
+    "word32": false,
+    "description": "Bit31 f3=3",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 4294967296,
+    "op2": 4294967296,
+    "funct3": 0,
+    "word32": false,
+    "description": "Bit32 f3=0",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 4294967296,
+    "op2": 4294967296,
+    "funct3": 1,
+    "word32": false,
+    "description": "Bit32 f3=1",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 4294967296,
+    "op2": 4294967296,
+    "funct3": 2,
+    "word32": false,
+    "description": "Bit32 f3=2",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 4294967296,
+    "op2": 4294967296,
+    "funct3": 3,
+    "word32": false,
+    "description": "Bit32 f3=3",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 9223372036854775808,
+    "op2": 9223372036854775808,
+    "funct3": 0,
+    "word32": false,
+    "description": "Bit63 f3=0",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 9223372036854775808,
+    "op2": 9223372036854775808,
+    "funct3": 1,
+    "word32": false,
+    "description": "Bit63 f3=1",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 9223372036854775808,
+    "op2": 9223372036854775808,
+    "funct3": 2,
+    "word32": false,
+    "description": "Bit63 f3=2",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 9223372036854775808,
+    "op2": 9223372036854775808,
+    "funct3": 3,
+    "word32": false,
+    "description": "Bit63 f3=3",
+    "category": "singlebit_critical"
+  },
+  {
+    "op1": 4294967296,
+    "op2": 4294967296,
+    "funct3": 0,
+    "word32": false,
+    "description": "BitExtract 2^32 f3=0",
+    "category": "bitextract_critical"
+  },
+  {
+    "op1": 4294967296,
+    "op2": 4294967296,
+    "funct3": 1,
+    "word32": false,
+    "description": "BitExtract 2^32 f3=1",
+    "category": "bitextract_critical"
+  },
+  {
+    "op1": 4294967296,
+    "op2": 4294967296,
+    "funct3": 2,
+    "word32": false,
+    "description": "BitExtract 2^32 f3=2",
+    "category": "bitextract_critical"
+  },
+  {
+    "op1": 4294967296,
+    "op2": 4294967296,
+    "funct3": 3,
+    "word32": false,
+    "description": "BitExtract 2^32 f3=3",
+    "category": "bitextract_critical"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 0,
+    "word32": false,
+    "description": "multiply with zero operands",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 1,
+    "word32": false,
+    "description": "multiply with zero operands",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 2,
+    "word32": false,
+    "description": "multiply with zero operands",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 3,
+    "word32": false,
+    "description": "multiply with zero operands",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 0,
+    "word32": true,
+    "description": "multiply with zero operands 32bit",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 1,
+    "word32": true,
+    "description": "multiply with zero operands 32bit",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 2,
+    "word32": true,
+    "description": "multiply with zero operands 32bit",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 3,
+    "word32": true,
+    "description": "multiply with zero operands 32bit",
+    "category": "edge"
+  },
+  {
+    "op1": 1,
+    "op2": 0,
+    "funct3": 0,
+    "word32": false,
+    "description": "multiply with one zero operand",
+    "category": "edge"
+  },
+  {
+    "op1": 1,
+    "op2": 0,
+    "funct3": 1,
+    "word32": false,
+    "description": "multiply with one zero operand",
+    "category": "edge"
+  },
+  {
+    "op1": 1,
+    "op2": 0,
+    "funct3": 2,
+    "word32": false,
+    "description": "multiply with one zero operand",
+    "category": "edge"
+  },
+  {
+    "op1": 1,
+    "op2": 0,
+    "funct3": 3,
+    "word32": false,
+    "description": "multiply with one zero operand",
+    "category": "edge"
+  },
+  {
+    "op1": -1,
+    "op2": 0,
+    "funct3": 0,
+    "word32": false,
+    "description": "multiply with negative and zero operands",
+    "category": "edge"
+  },
+  {
+    "op1": -1,
+    "op2": 0,
+    "funct3": 1,
+    "word32": false,
+    "description": "multiply with negative and zero operands",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": -1,
+    "funct3": 0,
+    "word32": false,
+    "description": "multiply with zero and negative operands",
+    "category": "edge"
+  },
+  {
+    "op1": -9223372036854775808,
+    "op2": -9223372036854775808,
+    "funct3": 0,
+    "word32": false,
+    "description": "test multiply -9223372036854775808 by -9223372036854775808 for funct3=0",
+    "category": "edge"
+  },
+  {
+    "op1": -9223372036854775808,
+    "op2": -9223372036854775808,
+    "funct3": 1,
+    "word32": false,
+    "description": "test multiply -9223372036854775808 by -9223372036854775808 for funct3=1",
+    "category": "edge"
+  },
+  {
+    "op1": -9223372036854775808,
+    "op2": -9223372036854775808,
+    "funct3": 2,
+    "word32": false,
+    "description": "test multiply -9223372036854775808 by -9223372036854775808 for funct3=2",
+    "category": "edge"
+  },
+  {
+    "op1": -9223372036854775808,
+    "op2": -9223372036854775808,
+    "funct3": 3,
+    "word32": false,
+    "description": "test multiply -9223372036854775808 by -9223372036854775808 for funct3=3",
+    "category": "edge"
+  },
+  {
+    "op1": -9223372036854775808,
+    "op2": -1,
+    "funct3": 0,
+    "word32": false,
+    "description": "test multiply -9223372036854775808 by -1 for funct3=0",
+    "category": "edge"
+  },
+  {
+    "op1": -9223372036854775808,
+    "op2": -1,
+    "funct3": 1,
+    "word32": false,
+    "description": "test multiply -9223372036854775808 by -1 for funct3=1",
+    "category": "edge"
+  },
+  {
+    "op1": -9223372036854775808,
+    "op2": -1,
+    "funct3": 2,
+    "word32": false,
+    "description": "test multiply -9223372036854775808 by -1 for funct3=2",
+    "category": "edge"
+  },
+  {
+    "op1": -9223372036854775808,
+    "op2": -1,
+    "funct3": 3,
+    "word32": false,
+    "description": "test multiply -9223372036854775808 by -1 for funct3=3",
+    "category": "edge"
+  },
+  {
+    "op1": -9223372036854775808,
+    "op2": 1,
+    "funct3": 0,
+    "word32": false,
+    "description": "test multiply -9223372036854775808 by 1 for funct3=0",
+    "category": "edge"
+  },
+  {
+    "op1": -9223372036854775808,
+    "op2": 1,
+    "funct3": 1,
+    "word32": false,
+    "description": "test multiply -9223372036854775808 by 1 for funct3=1",
+    "category": "edge"
+  },
+  {
+    "op1": -9223372036854775808,
+    "op2": 1,
+    "funct3": 2,
+    "word32": false,
+    "description": "test multiply -9223372036854775808 by 1 for funct3=2",
+    "category": "edge"
+  },
+  {
+    "op1": -9223372036854775808,
+    "op2": 1,
+    "funct3": 3,
+    "word32": false,
+    "description": "test multiply -9223372036854775808 by 1 for funct3=3",
+    "category": "edge"
+  },
+  {
+    "op1": -2147483648,
+    "op2": -2147483648,
+    "funct3": 0,
+    "word32": true,
+    "description": "test multiply -2147483648 by -2147483648 for funct3=0 with 32-bit",
+    "category": "edge"
+  },
+  {
+    "op1": -2147483648,
+    "op2": -2147483648,
+    "funct3": 1,
+    "word32": true,
+    "description": "test multiply -2147483648 by -2147483648 for funct3=1 with 32-bit",
+    "category": "edge"
+  },
+  {
+    "op1": -2147483648,
+    "op2": -2147483648,
+    "funct3": 2,
+    "word32": true,
+    "description": "test multiply -2147483648 by -2147483648 for funct3=2 with 32-bit",
+    "category": "edge"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 0,
+    "word32": false,
+    "description": "test 0",
+    "category": "normal"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 0,
+    "word32": true,
+    "description": "test 1",
+    "category": "normal"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 1,
+    "word32": false,
+    "description": "test 2",
+    "category": "normal"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 1,
+    "word32": true,
+    "description": "test 3",
+    "category": "normal"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 2,
+    "word32": false,
+    "description": "test 4",
+    "category": "normal"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 2,
+    "word32": true,
+    "description": "test 5",
+    "category": "normal"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 3,
+    "word32": false,
+    "description": "test 6",
+    "category": "normal"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 3,
+    "word32": true,
+    "description": "test 7",
+    "category": "normal"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 0,
+    "word32": false,
+    "description": "test 8",
+    "category": "overflow"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 0,
+    "word32": true,
+    "description": "test 9",
+    "category": "overflow"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 1,
+    "word32": false,
+    "description": "test 10",
+    "category": "overflow"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 1,
+    "word32": true,
+    "description": "test 11",
+    "category": "overflow"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 2,
+    "word32": false,
+    "description": "test 12",
+    "category": "overflow"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 2,
+    "word32": true,
+    "description": "test 13",
+    "category": "overflow"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 3,
+    "word32": false,
+    "description": "test 14",
+    "category": "overflow"
+  },
+  {
+    "op1": 9223372036854775807,
+    "op2": 9223372036854775807,
+    "funct3": 3,
+    "word32": true,
+    "description": "test 15",
+    "category": "overflow"
+  },
+  {
+    "op1": 1,
+    "op2": 1,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^1\u00d72^1",
+    "category": "normal"
+  },
+  {
+    "op1": 2,
+    "op2": 2,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^2\u00d72^2",
+    "category": "normal"
+  },
+  {
+    "op1": 4,
+    "op2": 4,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^4\u00d72^4",
+    "category": "normal"
+  },
+  {
+    "op1": 1,
+    "op2": 1,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^1\u00d72^1",
+    "category": "normal"
+  },
+  {
+    "op1": 2,
+    "op2": 2,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^2\u00d72^2",
+    "category": "normal"
+  },
+  {
+    "op1": 4,
+    "op2": 4,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^4\u00d72^4",
+    "category": "normal"
+  },
+  {
+    "op1": 1,
+    "op2": 1,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^1\u00d72^1",
+    "category": "normal"
+  },
+  {
+    "op1": 2,
+    "op2": 2,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^2\u00d72^2",
+    "category": "normal"
+  },
+  {
+    "op1": 4,
+    "op2": 4,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^4\u00d72^4",
+    "category": "normal"
+  },
+  {
+    "op1": 1,
+    "op2": 1,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^1\u00d72^1",
+    "category": "normal"
+  },
+  {
+    "op1": 2,
+    "op2": 2,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^2\u00d72^2",
+    "category": "normal"
+  },
+  {
+    "op1": 4,
+    "op2": 4,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^4\u00d72^4",
+    "category": "normal"
+  },
+  {
+    "op1": 1,
+    "op2": -1,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^1\u00d7-2^1",
+    "category": "edge"
+  },
+  {
+    "op1": 2,
+    "op2": -2,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^2\u00d7-2^2",
+    "category": "edge"
+  },
+  {
+    "op1": 4,
+    "op2": -4,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^4\u00d7-2^4",
+    "category": "edge"
+  },
+  {
+    "op1": 65536,
+    "op2": 65536,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^16\u00d72^16, funct3=0",
+    "category": "normal"
+  },
+  {
+    "op1": 65536,
+    "op2": 65536,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^16\u00d72^16, funct3=1",
+    "category": "normal"
+  },
+  {
+    "op1": 65536,
+    "op2": 65536,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^16\u00d72^16, funct3=2",
+    "category": "normal"
+  },
+  {
+    "op1": 65536,
+    "op2": 65536,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^16\u00d72^16, funct3=3",
+    "category": "normal"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^31\u00d72^31, funct3=0",
+    "category": "normal"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^31\u00d72^31, funct3=1",
+    "category": "normal"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^31\u00d72^31, funct3=2",
+    "category": "normal"
+  },
+  {
+    "op1": 2147483648,
+    "op2": 2147483648,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^31\u00d72^31, funct3=3",
+    "category": "normal"
+  },
+  {
+    "op1": 9223372036854775808,
+    "op2": 9223372036854775808,
+    "funct3": 0,
+    "word32": false,
+    "description": "2^63\u00d72^63, funct3=0",
+    "category": "normal"
+  },
+  {
+    "op1": 9223372036854775808,
+    "op2": 9223372036854775808,
+    "funct3": 1,
+    "word32": false,
+    "description": "2^63\u00d72^63, funct3=1",
+    "category": "normal"
+  },
+  {
+    "op1": 9223372036854775808,
+    "op2": 9223372036854775808,
+    "funct3": 2,
+    "word32": false,
+    "description": "2^63\u00d72^63, funct3=2",
+    "category": "normal"
+  },
+  {
+    "op1": 9223372036854775808,
+    "op2": 9223372036854775808,
+    "funct3": 3,
+    "word32": false,
+    "description": "2^63\u00d72^63, funct3=3",
+    "category": "normal"
+  },
+  {
+    "op1": 1,
+    "op2": 0,
+    "funct3": 0,
+    "word32": false,
+    "description": "1\u00d70, funct3=0",
+    "category": "normal"
+  },
+  {
+    "op1": 1,
+    "op2": 0,
+    "funct3": 1,
+    "word32": false,
+    "description": "1\u00d70, funct3=1",
+    "category": "normal"
+  },
+  {
+    "op1": 1,
+    "op2": 0,
+    "funct3": 2,
+    "word32": false,
+    "description": "1\u00d70, funct3=2",
+    "category": "normal"
+  },
+  {
+    "op1": 1,
+    "op2": 0,
+    "funct3": 3,
+    "word32": false,
+    "description": "1\u00d70, funct3=3",
+    "category": "normal"
+  },
+  {
+    "op1": -1,
+    "op2": 1,
+    "funct3": 1,
+    "word32": false,
+    "description": "test",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 0,
+    "word32": false,
+    "description": "test",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 0,
+    "word32": false,
+    "description": "test",
+    "category": "edge"
+  },
+  {
+    "op1": -1,
+    "op2": 1,
+    "funct3": 1,
+    "word32": false,
+    "description": "test",
+    "category": "edge"
+  },
+  {
+    "op1": 10,
+    "op2": 20,
+    "funct3": 0,
+    "word32": false,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "op1": -10,
+    "op2": 20,
+    "funct3": 0,
+    "word32": false,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "op1": 10,
+    "op2": -20,
+    "funct3": 0,
+    "word32": false,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "op1": -10,
+    "op2": -20,
+    "funct3": 0,
+    "word32": false,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "op1": 10,
+    "op2": 20,
+    "funct3": 1,
+    "word32": false,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "op1": -10,
+    "op2": 20,
+    "funct3": 1,
+    "word32": false,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "op1": 10,
+    "op2": -20,
+    "funct3": 1,
+    "word32": false,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "op1": -10,
+    "op2": -20,
+    "funct3": 1,
+    "word32": false,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "op1": 10,
+    "op2": 20,
+    "funct3": 2,
+    "word32": false,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "op1": -10,
+    "op2": 20,
+    "funct3": 2,
+    "word32": false,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "op1": 10,
+    "op2": -20,
+    "funct3": 2,
+    "word32": false,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "op1": -10,
+    "op2": -20,
+    "funct3": 2,
+    "word32": false,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "op1": 10,
+    "op2": 20,
+    "funct3": 3,
+    "word32": false,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 0,
+    "word32": false,
+    "description": "zero multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 1,
+    "word32": false,
+    "description": "zero multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 2,
+    "word32": false,
+    "description": "zero multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 0,
+    "funct3": 3,
+    "word32": false,
+    "description": "zero multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": 1,
+    "op2": 0,
+    "funct3": 0,
+    "word32": false,
+    "description": "zero multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": 1,
+    "op2": 0,
+    "funct3": 1,
+    "word32": false,
+    "description": "zero multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": 1,
+    "op2": 0,
+    "funct3": 2,
+    "word32": false,
+    "description": "zero multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": 1,
+    "op2": 0,
+    "funct3": 3,
+    "word32": false,
+    "description": "zero multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 1,
+    "funct3": 0,
+    "word32": false,
+    "description": "zero multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 1,
+    "funct3": 1,
+    "word32": false,
+    "description": "zero multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 1,
+    "funct3": 2,
+    "word32": false,
+    "description": "zero multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": 0,
+    "op2": 1,
+    "funct3": 3,
+    "word32": false,
+    "description": "zero multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": -1,
+    "op2": 1,
+    "funct3": 0,
+    "word32": false,
+    "description": "mixed sign multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": -1,
+    "op2": 1,
+    "funct3": 1,
+    "word32": false,
+    "description": "mixed sign multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": -1,
+    "op2": 1,
+    "funct3": 2,
+    "word32": false,
+    "description": "mixed sign multiplication",
+    "category": "edge"
+  },
+  {
+    "op1": -1,
+    "op2": 1,
+    "funct3": 3,
+    "word32": false,
+    "description": "mixed sign multiplication",
+    "category": "edge"
+  }
+]
