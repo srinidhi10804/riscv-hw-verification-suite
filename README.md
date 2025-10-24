@@ -29,6 +29,19 @@ This module contains the SRT Radix-2 divider implementation along with verificat
 - `bsv_ai_valid_radix2.py` – AI-based validation for BSV outputs.  
 - `divider_edge_case_comparison.json` – Edge case verification results.
 
+### 3. SRT Radix-4 Divider (`srt_radix4_divider/`)
+
+This module contains the SRT Radix-4 divider implementation along with verification scripts and AI-based validation.
+
+**Files:**
+
+- `srt_radix4_divider.bsv` – BSV implementation of the SRT Radix-4 divider.  
+- `srt_radix4_divider.py` – Python reference model for the divider.  
+- `divider_test_cases.json` – JSON file containing test cases.  
+- `divider_test_vectors.txt` – Test vectors for functional verification.  
+- `bsv_ai_valid_radix4.py` – AI-based validation for BSV outputs.  
+- `divider_edge_case_comparison_radix4.json` – Edge case verification results.
+
 ---
 
 ## How to Use
