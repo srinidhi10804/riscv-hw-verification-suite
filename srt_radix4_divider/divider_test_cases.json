@@ -1,0 +1,2682 @@
+[
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 18446744073709551615,
+    "description": "DIV: 0x0 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 0,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 18446744073709551615,
+    "description": "DIV: 0x1 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 18446744073709551615,
+    "description": "DIV: 0xffffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 0,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 18446744073709551615,
+    "description": "DIV: 0x8000000000000000 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 0,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 18446744073709551615,
+    "description": "DIV: 0x7fffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 18446744073709551615,
+    "description": "DIVU: 0x0 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 0,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 18446744073709551615,
+    "description": "DIVU: 0x1 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 18446744073709551615,
+    "description": "DIVU: 0xffffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 0,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 18446744073709551615,
+    "description": "DIVU: 0x8000000000000000 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 0,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 18446744073709551615,
+    "description": "DIVU: 0x7fffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 0x0 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 0,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 1,
+    "description": "REM: 0x1 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 18446744073709551615,
+    "description": "REM: 0xffffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 0,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 9223372036854775808,
+    "description": "REM: 0x8000000000000000 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 0,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 9223372036854775807,
+    "description": "REM: 0x7fffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 0x0 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 0,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 1,
+    "description": "REMU: 0x1 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 18446744073709551615,
+    "description": "REMU: 0xffffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 0,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 9223372036854775808,
+    "description": "REMU: 0x8000000000000000 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 0,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 9223372036854775807,
+    "description": "REMU: 0x7fffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 4294967295,
+    "description": "DIVW: 0x0 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 0,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 4294967295,
+    "description": "DIVW: 0x1 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 4294967295,
+    "description": "DIVW: 0xffffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 0,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 4294967295,
+    "description": "DIVW: 0x8000000000000000 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 0,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 4294967295,
+    "description": "DIVW: 0x7fffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 4294967295,
+    "description": "DIVUW: 0x0 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 0,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 4294967295,
+    "description": "DIVUW: 0x1 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 4294967295,
+    "description": "DIVUW: 0xffffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 0,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 4294967295,
+    "description": "DIVUW: 0x8000000000000000 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 0,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 4294967295,
+    "description": "DIVUW: 0x7fffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 0x0 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 0,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 1,
+    "description": "REMW: 0x1 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 4294967295,
+    "description": "REMW: 0xffffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 0,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 0x8000000000000000 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 0,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 4294967295,
+    "description": "REMW: 0x7fffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 0x0 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 0,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 1,
+    "description": "REMUW: 0x1 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 4294967295,
+    "description": "REMUW: 0xffffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 0,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 0x8000000000000000 / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 0,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 4294967295,
+    "description": "REMUW: 0x7fffffffffffffff / 0",
+    "category": "div_by_zero_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 0,
+    "description": "DIV: 0 / 0x1",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 2,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 0,
+    "description": "DIV: 0 / 0x2",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 18446744073709551615,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 0,
+    "description": "DIV: 0 / 0xffffffffffffffff",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 0,
+    "description": "DIVU: 0 / 0x1",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 2,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 0,
+    "description": "DIVU: 0 / 0x2",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 18446744073709551615,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 0,
+    "description": "DIVU: 0 / 0xffffffffffffffff",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 0 / 0x1",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 2,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 0 / 0x2",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 18446744073709551615,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 0 / 0xffffffffffffffff",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 0 / 0x1",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 2,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 0 / 0x2",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 18446744073709551615,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 0 / 0xffffffffffffffff",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 0,
+    "description": "DIVW: 0 / 0x1",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 2,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 0,
+    "description": "DIVW: 0 / 0x2",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 18446744073709551615,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 0,
+    "description": "DIVW: 0 / 0xffffffffffffffff",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 0,
+    "description": "DIVUW: 0 / 0x1",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 2,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 0,
+    "description": "DIVUW: 0 / 0x2",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 18446744073709551615,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 0,
+    "description": "DIVUW: 0 / 0xffffffffffffffff",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 0 / 0x1",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 2,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 0 / 0x2",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 18446744073709551615,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 0 / 0xffffffffffffffff",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 0 / 0x1",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 2,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 0 / 0x2",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 0,
+    "divisor": 18446744073709551615,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 0 / 0xffffffffffffffff",
+    "category": "zero_dividend_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 18446744073709551615,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 9223372036854775808,
+    "description": "DIV: 64-bit overflow",
+    "category": "overflow_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 18446744073709551615,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 64-bit overflow",
+    "category": "overflow_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 4294967295,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 0,
+    "description": "DIVW: 32-bit overflow",
+    "category": "overflow_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 4294967295,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 2147483648,
+    "description": "REMW: 32-bit overflow",
+    "category": "overflow_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 0x1 / 0x1",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 0x1 / 0x1",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 0x1 / 0x1",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 0x1 / 0x1",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: 0x1 / 0x1",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: 0x1 / 0x1",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 0x1 / 0x1",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 0x1 / 0x1",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 0x2 / 0x2",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 0x2 / 0x2",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 0x2 / 0x2",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 0x2 / 0x2",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: 0x2 / 0x2",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: 0x2 / 0x2",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 0x2 / 0x2",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 0x2 / 0x2",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 100,
+    "divisor": 100,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 0x64 / 0x64",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 100,
+    "divisor": 100,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 0x64 / 0x64",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 100,
+    "divisor": 100,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 0x64 / 0x64",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 100,
+    "divisor": 100,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 0x64 / 0x64",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 100,
+    "divisor": 100,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: 0x64 / 0x64",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 100,
+    "divisor": 100,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: 0x64 / 0x64",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 100,
+    "divisor": 100,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 0x64 / 0x64",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 100,
+    "divisor": 100,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 0x64 / 0x64",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 9223372036854775807,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 0x7fffffffffffffff / 0x7fffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 9223372036854775807,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 0x7fffffffffffffff / 0x7fffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 9223372036854775807,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 0x7fffffffffffffff / 0x7fffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 9223372036854775807,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 0x7fffffffffffffff / 0x7fffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 9223372036854775807,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: 0x7fffffffffffffff / 0x7fffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 9223372036854775807,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: 0x7fffffffffffffff / 0x7fffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 9223372036854775807,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 0x7fffffffffffffff / 0x7fffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 9223372036854775807,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 0x7fffffffffffffff / 0x7fffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 18446744073709551615,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 0xffffffffffffffff / 0xffffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 18446744073709551615,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 0xffffffffffffffff / 0xffffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 18446744073709551615,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 0xffffffffffffffff / 0xffffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 18446744073709551615,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 0xffffffffffffffff / 0xffffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 18446744073709551615,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: 0xffffffffffffffff / 0xffffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 18446744073709551615,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: 0xffffffffffffffff / 0xffffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 18446744073709551615,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 0xffffffffffffffff / 0xffffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 18446744073709551615,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 0xffffffffffffffff / 0xffffffffffffffff",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 0x80000000 / 0x80000000",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 0x80000000 / 0x80000000",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 0x80000000 / 0x80000000",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 0x80000000 / 0x80000000",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: 0x80000000 / 0x80000000",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: 0x80000000 / 0x80000000",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 0x80000000 / 0x80000000",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 0x80000000 / 0x80000000",
+    "category": "equal_operands_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 2^0 / 2^0",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 2^0 / 2^0",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 2^0 / 2^0",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 2^0 / 2^0",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: 2^0 / 2^0",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: 2^0 / 2^0",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 2^0 / 2^0",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 2^0 / 2^0",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 2^1 / 2^1",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 2^1 / 2^1",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 2^1 / 2^1",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 2^1 / 2^1",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: 2^1 / 2^1",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: 2^1 / 2^1",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 2^1 / 2^1",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 2^1 / 2^1",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4,
+    "divisor": 4,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 2^2 / 2^2",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4,
+    "divisor": 4,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 2^2 / 2^2",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4,
+    "divisor": 4,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 2^2 / 2^2",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4,
+    "divisor": 4,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 2^2 / 2^2",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4,
+    "divisor": 4,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: 2^2 / 2^2",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4,
+    "divisor": 4,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: 2^2 / 2^2",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4,
+    "divisor": 4,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 2^2 / 2^2",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4,
+    "divisor": 4,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 2^2 / 2^2",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 16,
+    "divisor": 16,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 2^4 / 2^4",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 16,
+    "divisor": 16,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 2^4 / 2^4",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 16,
+    "divisor": 16,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 2^4 / 2^4",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 16,
+    "divisor": 16,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 2^4 / 2^4",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 16,
+    "divisor": 16,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: 2^4 / 2^4",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 16,
+    "divisor": 16,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: 2^4 / 2^4",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 16,
+    "divisor": 16,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 2^4 / 2^4",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 16,
+    "divisor": 16,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 2^4 / 2^4",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 256,
+    "divisor": 256,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 2^8 / 2^8",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 256,
+    "divisor": 256,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 2^8 / 2^8",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 256,
+    "divisor": 256,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 2^8 / 2^8",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 256,
+    "divisor": 256,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 2^8 / 2^8",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 256,
+    "divisor": 256,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: 2^8 / 2^8",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 256,
+    "divisor": 256,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: 2^8 / 2^8",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 256,
+    "divisor": 256,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 2^8 / 2^8",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 256,
+    "divisor": 256,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 2^8 / 2^8",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 65536,
+    "divisor": 65536,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 2^16 / 2^16",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 65536,
+    "divisor": 65536,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 2^16 / 2^16",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 65536,
+    "divisor": 65536,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 2^16 / 2^16",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 65536,
+    "divisor": 65536,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 2^16 / 2^16",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 65536,
+    "divisor": 65536,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: 2^16 / 2^16",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 65536,
+    "divisor": 65536,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: 2^16 / 2^16",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 65536,
+    "divisor": 65536,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 2^16 / 2^16",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 65536,
+    "divisor": 65536,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 2^16 / 2^16",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 2^31 / 2^31",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 2^31 / 2^31",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 2^31 / 2^31",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 2^31 / 2^31",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: 2^31 / 2^31",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: 2^31 / 2^31",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 2^31 / 2^31",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 2^31 / 2^31",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4294967296,
+    "divisor": 4294967296,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 2^32 / 2^32",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4294967296,
+    "divisor": 4294967296,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 2^32 / 2^32",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4294967296,
+    "divisor": 4294967296,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 2^32 / 2^32",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4294967296,
+    "divisor": 4294967296,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 2^32 / 2^32",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4294967296,
+    "divisor": 4294967296,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 4294967295,
+    "description": "DIVW: 2^32 / 2^32",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4294967296,
+    "divisor": 4294967296,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 4294967295,
+    "description": "DIVUW: 2^32 / 2^32",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4294967296,
+    "divisor": 4294967296,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 2^32 / 2^32",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 4294967296,
+    "divisor": 4294967296,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 2^32 / 2^32",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775808,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: 2^63 / 2^63",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775808,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVU: 2^63 / 2^63",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775808,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 2^63 / 2^63",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775808,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: 2^63 / 2^63",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775808,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 4294967295,
+    "description": "DIVW: 2^63 / 2^63",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775808,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 4294967295,
+    "description": "DIVUW: 2^63 / 2^63",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775808,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: 2^63 / 2^63",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775808,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: 2^63 / 2^63",
+    "category": "power_of_2_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 18446744073709551615,
+    "description": "DIV: MAX / 1",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 18446744073709551615,
+    "description": "DIVU: MAX / 1",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: MAX / 1",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: MAX / 1",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 4294967295,
+    "description": "DIVW: MAX / 1",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 4294967295,
+    "description": "DIVUW: MAX / 1",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: MAX / 1",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: MAX / 1",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 18446744073709551615,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 18446744073709551615,
+    "description": "DIV: 1 / MAX",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 18446744073709551615,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 0,
+    "description": "DIVU: 1 / MAX",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 18446744073709551615,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: 1 / MAX",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 18446744073709551615,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 1,
+    "description": "REMU: 1 / MAX",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 18446744073709551615,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 0,
+    "description": "DIVW: 1 / MAX",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 18446744073709551615,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 0,
+    "description": "DIVUW: 1 / MAX",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 18446744073709551615,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 1,
+    "description": "REMW: 1 / MAX",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 18446744073709551615,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 1,
+    "description": "REMUW: 1 / MAX",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 2,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 4611686018427387903,
+    "description": "DIV: MaxInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 2,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 4611686018427387903,
+    "description": "DIVU: MaxInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 2,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 1,
+    "description": "REM: MaxInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 2,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 1,
+    "description": "REMU: MaxInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 2,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 2147483647,
+    "description": "DIVW: MaxInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 2,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 2147483647,
+    "description": "DIVUW: MaxInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 2,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 1,
+    "description": "REMW: MaxInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 2,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 1,
+    "description": "REMUW: MaxInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 2,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 13835058055282163712,
+    "description": "DIV: MinInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 2,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 4611686018427387904,
+    "description": "DIVU: MinInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 2,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: MinInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 2,
+    "operation": "REMU",
+    "opcode": 12,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMU: MinInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 2,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 0,
+    "description": "DIVW: MinInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 2,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 0,
+    "description": "DIVUW: MinInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 2,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: MinInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 2,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: MinInt / 2",
+    "category": "boundary_critical"
+  },
+  {
+    "dividend": -1,
+    "divisor": 1,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 18446744073709551615,
+    "description": "DIV: Neg / Pos",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": -1,
+    "divisor": 1,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: Neg / Pos",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": -1,
+    "divisor": 1,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 4294967295,
+    "description": "DIVW: Neg / Pos",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": -1,
+    "divisor": 1,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: Neg / Pos",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": -1,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 18446744073709551615,
+    "description": "DIV: Pos / Neg",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": -1,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: Pos / Neg",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": -1,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 0,
+    "description": "DIVW: Pos / Neg",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": -1,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 1,
+    "description": "REMW: Pos / Neg",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": -1,
+    "divisor": -1,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIV: Neg / Neg",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": -1,
+    "divisor": -1,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REM: Neg / Neg",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": -1,
+    "divisor": -1,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: Neg / Neg",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": -1,
+    "divisor": -1,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: Neg / Neg",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775807,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 18446744073709551615,
+    "description": "DIV: MinInt / MaxInt",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775807,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 18446744073709551615,
+    "description": "REM: MinInt / MaxInt",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775807,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 0,
+    "description": "DIVW: MinInt / MaxInt",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775807,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: MinInt / MaxInt",
+    "category": "sign_transition_critical"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2147483647,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: MaxInt32",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2147483647,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: MaxInt32",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2147483647,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: MaxInt32",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2147483647,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: MaxInt32",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: MinInt32",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: MinInt32",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: MinInt32",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: MinInt32",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 4294967295,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 1,
+    "description": "DIVW: AllOnes32",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 4294967295,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 1,
+    "description": "DIVUW: AllOnes32",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 4294967295,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: AllOnes32",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 4294967295,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: AllOnes32",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 1,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 4294967295,
+    "description": "DIVW: SignExt -1 / 1",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 1,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 4294967295,
+    "description": "DIVUW: SignExt -1 / 1",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 1,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 0,
+    "description": "REMW: SignExt -1 / 1",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 1,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "REMUW: SignExt -1 / 1",
+    "category": "word32_sign_extend_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 9223372036854775808,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 0,
+    "description": "DIV: Many leading zeros dividend",
+    "category": "leading_zeros_critical"
+  },
+  {
+    "dividend": 1,
+    "divisor": 9223372036854775808,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 0,
+    "description": "DIVU: Many leading zeros dividend",
+    "category": "leading_zeros_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 1,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 9223372036854775808,
+    "description": "DIV: Many leading zeros divisor",
+    "category": "leading_zeros_critical"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 1,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 9223372036854775808,
+    "description": "DIVU: Many leading zeros divisor",
+    "category": "leading_zeros_critical"
+  },
+  {
+    "dividend": 255,
+    "divisor": 65280,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 0,
+    "description": "DIV: Different leading zeros",
+    "category": "leading_zeros_critical"
+  },
+  {
+    "dividend": 255,
+    "divisor": 65280,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 0,
+    "description": "DIVU: Different leading zeros",
+    "category": "leading_zeros_critical"
+  },
+  {
+    "dividend": 12345,
+    "divisor": 67,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 184,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "dividend": 99999,
+    "divisor": 123,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 813,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "dividend": 1000,
+    "divisor": 17,
+    "operation": "DIV",
+    "opcode": 12,
+    "funct3": 4,
+    "expected": 58,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "dividend": 10000,
+    "divisor": 25,
+    "operation": "DIVU",
+    "opcode": 12,
+    "funct3": 5,
+    "expected": 400,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "dividend": 123456,
+    "divisor": 89,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 13,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "dividend": 9999,
+    "divisor": 13,
+    "operation": "REM",
+    "opcode": 12,
+    "funct3": 6,
+    "expected": 2,
+    "description": "test",
+    "category": "normal"
+  },
+  {
+    "dividend": 1000000,
+    "divisor": 31,
+    "operation": "DIVW",
+    "opcode": 14,
+    "funct3": 4,
+    "expected": 32258,
+    "description": "test",
+    "category": "wide"
+  },
+  {
+    "dividend": 10000000,
+    "divisor": 67,
+    "operation": "DIVUW",
+    "opcode": 14,
+    "funct3": 5,
+    "expected": 149253,
+    "description": "test",
+    "category": "wide"
+  },
+  {
+    "dividend": 1234567,
+    "divisor": 89,
+    "operation": "REMW",
+    "opcode": 14,
+    "funct3": 6,
+    "expected": 48,
+    "description": "test",
+    "category": "wide"
+  },
+  {
+    "dividend": 99999,
+    "divisor": 123,
+    "operation": "REMUW",
+    "opcode": 14,
+    "funct3": 7,
+    "expected": 0,
+    "description": "test",
+    "category": "wide"
+  }
+]
