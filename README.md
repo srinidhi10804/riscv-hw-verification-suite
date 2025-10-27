@@ -55,7 +55,7 @@ Files:
 - `srt_radix4_64_ai_vs_bsv.py – AI vs BSV coverage comparison script.
 - `divider_test_results.json – Stores test results from AI-generated cases.
 - `divider_edge_case_comparison.json – Records AI–BSV edge-case comparison outcomes.
-
+---
 5. Carry Look-Ahead Adder (130-bit) (CLA_130/)
 
 This module implements and verifies a 130-bit Carry Look-Ahead Adder (CLA) using AI-assisted test generation and coverage analysis.
@@ -67,7 +67,7 @@ Files:
 - `cla_edge_case_comparison.json – Edge case coverage results.
 - `cla_results_20251027_045300.json – AI test case output data.
 - `cla_summary_20251027_045300.txt – Summary of verification and AI coverage statistics.
-
+---
 ## How to Use
 
 1. Clone the repository:
