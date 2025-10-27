@@ -1,0 +1,1544 @@
+[
+  {
+    "input_val": 0,
+    "expected": 64,
+    "description": "All zeros (64 leading zeros)",
+    "category": "all_zeros"
+  },
+  {
+    "input_val": 18446744073709551615,
+    "expected": 0,
+    "description": "All ones (0 leading zeros)",
+    "category": "all_ones"
+  },
+  {
+    "input_val": 1,
+    "expected": 63,
+    "description": "Single bit at position 0 (63 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 2,
+    "expected": 62,
+    "description": "Single bit at position 1 (62 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 4,
+    "expected": 61,
+    "description": "Single bit at position 2 (61 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 8,
+    "expected": 60,
+    "description": "Single bit at position 3 (60 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 16,
+    "expected": 59,
+    "description": "Single bit at position 4 (59 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 32,
+    "expected": 58,
+    "description": "Single bit at position 5 (58 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 64,
+    "expected": 57,
+    "description": "Single bit at position 6 (57 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 128,
+    "expected": 56,
+    "description": "Single bit at position 7 (56 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 256,
+    "expected": 55,
+    "description": "Single bit at position 8 (55 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 512,
+    "expected": 54,
+    "description": "Single bit at position 9 (54 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 1024,
+    "expected": 53,
+    "description": "Single bit at position 10 (53 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 2048,
+    "expected": 52,
+    "description": "Single bit at position 11 (52 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 4096,
+    "expected": 51,
+    "description": "Single bit at position 12 (51 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 8192,
+    "expected": 50,
+    "description": "Single bit at position 13 (50 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 16384,
+    "expected": 49,
+    "description": "Single bit at position 14 (49 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 32768,
+    "expected": 48,
+    "description": "Single bit at position 15 (48 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 65536,
+    "expected": 47,
+    "description": "Single bit at position 16 (47 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 131072,
+    "expected": 46,
+    "description": "Single bit at position 17 (46 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 262144,
+    "expected": 45,
+    "description": "Single bit at position 18 (45 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 524288,
+    "expected": 44,
+    "description": "Single bit at position 19 (44 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 1048576,
+    "expected": 43,
+    "description": "Single bit at position 20 (43 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 2097152,
+    "expected": 42,
+    "description": "Single bit at position 21 (42 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 4194304,
+    "expected": 41,
+    "description": "Single bit at position 22 (41 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 8388608,
+    "expected": 40,
+    "description": "Single bit at position 23 (40 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 16777216,
+    "expected": 39,
+    "description": "Single bit at position 24 (39 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 33554432,
+    "expected": 38,
+    "description": "Single bit at position 25 (38 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 67108864,
+    "expected": 37,
+    "description": "Single bit at position 26 (37 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 134217728,
+    "expected": 36,
+    "description": "Single bit at position 27 (36 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 268435456,
+    "expected": 35,
+    "description": "Single bit at position 28 (35 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 536870912,
+    "expected": 34,
+    "description": "Single bit at position 29 (34 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 1073741824,
+    "expected": 33,
+    "description": "Single bit at position 30 (33 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 2147483648,
+    "expected": 32,
+    "description": "Single bit at position 31 (32 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 4294967296,
+    "expected": 31,
+    "description": "Single bit at position 32 (31 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 8589934592,
+    "expected": 30,
+    "description": "Single bit at position 33 (30 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 17179869184,
+    "expected": 29,
+    "description": "Single bit at position 34 (29 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 34359738368,
+    "expected": 28,
+    "description": "Single bit at position 35 (28 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 68719476736,
+    "expected": 27,
+    "description": "Single bit at position 36 (27 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 137438953472,
+    "expected": 26,
+    "description": "Single bit at position 37 (26 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 274877906944,
+    "expected": 25,
+    "description": "Single bit at position 38 (25 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 549755813888,
+    "expected": 24,
+    "description": "Single bit at position 39 (24 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 1099511627776,
+    "expected": 23,
+    "description": "Single bit at position 40 (23 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 2199023255552,
+    "expected": 22,
+    "description": "Single bit at position 41 (22 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 4398046511104,
+    "expected": 21,
+    "description": "Single bit at position 42 (21 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 8796093022208,
+    "expected": 20,
+    "description": "Single bit at position 43 (20 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 17592186044416,
+    "expected": 19,
+    "description": "Single bit at position 44 (19 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 35184372088832,
+    "expected": 18,
+    "description": "Single bit at position 45 (18 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 70368744177664,
+    "expected": 17,
+    "description": "Single bit at position 46 (17 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 140737488355328,
+    "expected": 16,
+    "description": "Single bit at position 47 (16 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 281474976710656,
+    "expected": 15,
+    "description": "Single bit at position 48 (15 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 562949953421312,
+    "expected": 14,
+    "description": "Single bit at position 49 (14 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 1125899906842624,
+    "expected": 13,
+    "description": "Single bit at position 50 (13 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 2251799813685248,
+    "expected": 12,
+    "description": "Single bit at position 51 (12 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 4503599627370496,
+    "expected": 11,
+    "description": "Single bit at position 52 (11 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 9007199254740992,
+    "expected": 10,
+    "description": "Single bit at position 53 (10 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 18014398509481984,
+    "expected": 9,
+    "description": "Single bit at position 54 (9 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 36028797018963968,
+    "expected": 8,
+    "description": "Single bit at position 55 (8 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 72057594037927936,
+    "expected": 7,
+    "description": "Single bit at position 56 (7 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 144115188075855872,
+    "expected": 6,
+    "description": "Single bit at position 57 (6 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 288230376151711744,
+    "expected": 5,
+    "description": "Single bit at position 58 (5 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 576460752303423488,
+    "expected": 4,
+    "description": "Single bit at position 59 (4 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 1152921504606846976,
+    "expected": 3,
+    "description": "Single bit at position 60 (3 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 2305843009213693952,
+    "expected": 2,
+    "description": "Single bit at position 61 (2 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 4611686018427387904,
+    "expected": 1,
+    "description": "Single bit at position 62 (1 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 9223372036854775808,
+    "expected": 0,
+    "description": "Single bit at position 63 (0 leading zeros)",
+    "category": "single_bit"
+  },
+  {
+    "input_val": 17293822569102704640,
+    "expected": 0,
+    "description": "Nibble pattern at boundary 0",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 1080863910568919040,
+    "expected": 4,
+    "description": "Nibble pattern at boundary 1",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 67553994410557440,
+    "expected": 8,
+    "description": "Nibble pattern at boundary 2",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 4222124650659840,
+    "expected": 12,
+    "description": "Nibble pattern at boundary 3",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 263882790666240,
+    "expected": 16,
+    "description": "Nibble pattern at boundary 4",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 16492674416640,
+    "expected": 20,
+    "description": "Nibble pattern at boundary 5",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 1030792151040,
+    "expected": 24,
+    "description": "Nibble pattern at boundary 6",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 64424509440,
+    "expected": 28,
+    "description": "Nibble pattern at boundary 7",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 4026531840,
+    "expected": 32,
+    "description": "Nibble pattern at boundary 8",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 251658240,
+    "expected": 36,
+    "description": "Nibble pattern at boundary 9",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 15728640,
+    "expected": 40,
+    "description": "Nibble pattern at boundary 10",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 983040,
+    "expected": 44,
+    "description": "Nibble pattern at boundary 11",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 61440,
+    "expected": 48,
+    "description": "Nibble pattern at boundary 12",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 3840,
+    "expected": 52,
+    "description": "Nibble pattern at boundary 13",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 240,
+    "expected": 56,
+    "description": "Nibble pattern at boundary 14",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 15,
+    "expected": 60,
+    "description": "Nibble pattern at boundary 15",
+    "category": "nibble_boundary"
+  },
+  {
+    "input_val": 12297829382473034410,
+    "expected": 0,
+    "description": "Alternating 10101010...",
+    "category": "alternating"
+  },
+  {
+    "input_val": 6148914691236517205,
+    "expected": 1,
+    "description": "Alternating 01010101...",
+    "category": "alternating"
+  },
+  {
+    "input_val": 14757395258967641292,
+    "expected": 0,
+    "description": "Alternating 11001100...",
+    "category": "alternating"
+  },
+  {
+    "input_val": 3689348814741910323,
+    "expected": 2,
+    "description": "Alternating 00110011...",
+    "category": "alternating"
+  },
+  {
+    "input_val": 17361641481138401520,
+    "expected": 0,
+    "description": "Alternating 11110000...",
+    "category": "alternating"
+  },
+  {
+    "input_val": 1085102592571150095,
+    "expected": 4,
+    "description": "Alternating 00001111...",
+    "category": "alternating"
+  },
+  {
+    "input_val": 9223372036854775808,
+    "expected": 0,
+    "description": "1 leading ones (0 leading zeros)",
+    "category": "leading_ones"
+  },
+  {
+    "input_val": 13835058055282163712,
+    "expected": 0,
+    "description": "2 leading ones (0 leading zeros)",
+    "category": "leading_ones"
+  },
+  {
+    "input_val": 16140901064495857664,
+    "expected": 0,
+    "description": "3 leading ones (0 leading zeros)",
+    "category": "leading_ones"
+  },
+  {
+    "input_val": 17293822569102704640,
+    "expected": 0,
+    "description": "4 leading ones (0 leading zeros)",
+    "category": "leading_ones"
+  },
+  {
+    "input_val": 18374686479671623680,
+    "expected": 0,
+    "description": "8 leading ones (0 leading zeros)",
+    "category": "leading_ones"
+  },
+  {
+    "input_val": 18442240474082181120,
+    "expected": 0,
+    "description": "12 leading ones (0 leading zeros)",
+    "category": "leading_ones"
+  },
+  {
+    "input_val": 18446462598732840960,
+    "expected": 0,
+    "description": "16 leading ones (0 leading zeros)",
+    "category": "leading_ones"
+  },
+  {
+    "input_val": 18446742974197923840,
+    "expected": 0,
+    "description": "24 leading ones (0 leading zeros)",
+    "category": "leading_ones"
+  },
+  {
+    "input_val": 18446744069414584320,
+    "expected": 0,
+    "description": "32 leading ones (0 leading zeros)",
+    "category": "leading_ones"
+  },
+  {
+    "input_val": 18446744073709486080,
+    "expected": 0,
+    "description": "48 leading ones (0 leading zeros)",
+    "category": "leading_ones"
+  },
+  {
+    "input_val": 18446744073709551614,
+    "expected": 0,
+    "description": "63 leading ones (0 leading zeros)",
+    "category": "leading_ones"
+  },
+  {
+    "input_val": 4611686018427387904,
+    "expected": 1,
+    "description": "1 leading zeros, then 1",
+    "category": "leading_zeros"
+  },
+  {
+    "input_val": 2305843009213693952,
+    "expected": 2,
+    "description": "2 leading zeros, then 1",
+    "category": "leading_zeros"
+  },
+  {
+    "input_val": 1152921504606846976,
+    "expected": 3,
+    "description": "3 leading zeros, then 1",
+    "category": "leading_zeros"
+  },
+  {
+    "input_val": 576460752303423488,
+    "expected": 4,
+    "description": "4 leading zeros, then 1",
+    "category": "leading_zeros"
+  },
+  {
+    "input_val": 36028797018963968,
+    "expected": 8,
+    "description": "8 leading zeros, then 1",
+    "category": "leading_zeros"
+  },
+  {
+    "input_val": 2251799813685248,
+    "expected": 12,
+    "description": "12 leading zeros, then 1",
+    "category": "leading_zeros"
+  },
+  {
+    "input_val": 140737488355328,
+    "expected": 16,
+    "description": "16 leading zeros, then 1",
+    "category": "leading_zeros"
+  },
+  {
+    "input_val": 549755813888,
+    "expected": 24,
+    "description": "24 leading zeros, then 1",
+    "category": "leading_zeros"
+  },
+  {
+    "input_val": 2147483648,
+    "expected": 32,
+    "description": "32 leading zeros, then 1",
+    "category": "leading_zeros"
+  },
+  {
+    "input_val": 32768,
+    "expected": 48,
+    "description": "48 leading zeros, then 1",
+    "category": "leading_zeros"
+  },
+  {
+    "input_val": 1,
+    "expected": 63,
+    "description": "63 leading zeros, then 1",
+    "category": "leading_zeros"
+  },
+  {
+    "input_val": 1,
+    "expected": 63,
+    "description": "2^0",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 2,
+    "expected": 62,
+    "description": "2^1",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 4,
+    "expected": 61,
+    "description": "2^2",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 8,
+    "expected": 60,
+    "description": "2^3",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 16,
+    "expected": 59,
+    "description": "2^4",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 32,
+    "expected": 58,
+    "description": "2^5",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 64,
+    "expected": 57,
+    "description": "2^6",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 128,
+    "expected": 56,
+    "description": "2^7",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 256,
+    "expected": 55,
+    "description": "2^8",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 512,
+    "expected": 54,
+    "description": "2^9",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 1024,
+    "expected": 53,
+    "description": "2^10",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 2048,
+    "expected": 52,
+    "description": "2^11",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 4096,
+    "expected": 51,
+    "description": "2^12",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 8192,
+    "expected": 50,
+    "description": "2^13",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 16384,
+    "expected": 49,
+    "description": "2^14",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 32768,
+    "expected": 48,
+    "description": "2^15",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 65536,
+    "expected": 47,
+    "description": "2^16",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 131072,
+    "expected": 46,
+    "description": "2^17",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 262144,
+    "expected": 45,
+    "description": "2^18",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 524288,
+    "expected": 44,
+    "description": "2^19",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 1048576,
+    "expected": 43,
+    "description": "2^20",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 2097152,
+    "expected": 42,
+    "description": "2^21",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 4194304,
+    "expected": 41,
+    "description": "2^22",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 8388608,
+    "expected": 40,
+    "description": "2^23",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 16777216,
+    "expected": 39,
+    "description": "2^24",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 33554432,
+    "expected": 38,
+    "description": "2^25",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 67108864,
+    "expected": 37,
+    "description": "2^26",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 134217728,
+    "expected": 36,
+    "description": "2^27",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 268435456,
+    "expected": 35,
+    "description": "2^28",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 536870912,
+    "expected": 34,
+    "description": "2^29",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 1073741824,
+    "expected": 33,
+    "description": "2^30",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 2147483648,
+    "expected": 32,
+    "description": "2^31",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 4294967296,
+    "expected": 31,
+    "description": "2^32",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 8589934592,
+    "expected": 30,
+    "description": "2^33",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 17179869184,
+    "expected": 29,
+    "description": "2^34",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 34359738368,
+    "expected": 28,
+    "description": "2^35",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 68719476736,
+    "expected": 27,
+    "description": "2^36",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 137438953472,
+    "expected": 26,
+    "description": "2^37",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 274877906944,
+    "expected": 25,
+    "description": "2^38",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 549755813888,
+    "expected": 24,
+    "description": "2^39",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 1099511627776,
+    "expected": 23,
+    "description": "2^40",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 2199023255552,
+    "expected": 22,
+    "description": "2^41",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 4398046511104,
+    "expected": 21,
+    "description": "2^42",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 8796093022208,
+    "expected": 20,
+    "description": "2^43",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 17592186044416,
+    "expected": 19,
+    "description": "2^44",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 35184372088832,
+    "expected": 18,
+    "description": "2^45",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 70368744177664,
+    "expected": 17,
+    "description": "2^46",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 140737488355328,
+    "expected": 16,
+    "description": "2^47",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 281474976710656,
+    "expected": 15,
+    "description": "2^48",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 562949953421312,
+    "expected": 14,
+    "description": "2^49",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 1125899906842624,
+    "expected": 13,
+    "description": "2^50",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 2251799813685248,
+    "expected": 12,
+    "description": "2^51",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 4503599627370496,
+    "expected": 11,
+    "description": "2^52",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 9007199254740992,
+    "expected": 10,
+    "description": "2^53",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 18014398509481984,
+    "expected": 9,
+    "description": "2^54",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 36028797018963968,
+    "expected": 8,
+    "description": "2^55",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 72057594037927936,
+    "expected": 7,
+    "description": "2^56",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 144115188075855872,
+    "expected": 6,
+    "description": "2^57",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 288230376151711744,
+    "expected": 5,
+    "description": "2^58",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 576460752303423488,
+    "expected": 4,
+    "description": "2^59",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 1152921504606846976,
+    "expected": 3,
+    "description": "2^60",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 2305843009213693952,
+    "expected": 2,
+    "description": "2^61",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 4611686018427387904,
+    "expected": 1,
+    "description": "2^62",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 9223372036854775808,
+    "expected": 0,
+    "description": "2^63",
+    "category": "power_of_2"
+  },
+  {
+    "input_val": 15,
+    "expected": 60,
+    "description": "2^4 - 1 (all ones in lower 4 bits)",
+    "category": "power_minus_1"
+  },
+  {
+    "input_val": 255,
+    "expected": 56,
+    "description": "2^8 - 1 (all ones in lower 8 bits)",
+    "category": "power_minus_1"
+  },
+  {
+    "input_val": 65535,
+    "expected": 48,
+    "description": "2^16 - 1 (all ones in lower 16 bits)",
+    "category": "power_minus_1"
+  },
+  {
+    "input_val": 4294967295,
+    "expected": 32,
+    "description": "2^32 - 1 (all ones in lower 32 bits)",
+    "category": "power_minus_1"
+  },
+  {
+    "input_val": 281474976710655,
+    "expected": 16,
+    "description": "2^48 - 1 (all ones in lower 48 bits)",
+    "category": "power_minus_1"
+  },
+  {
+    "input_val": 9223372036854775807,
+    "expected": 1,
+    "description": "2^63 - 1 (all ones in lower 63 bits)",
+    "category": "power_minus_1"
+  },
+  {
+    "input_val": 18446744073709551615,
+    "expected": 0,
+    "description": "2^64 - 1 (all ones in lower 64 bits)",
+    "category": "power_minus_1"
+  },
+  {
+    "input_val": 128,
+    "expected": 56,
+    "description": "MSB of byte 0 set",
+    "category": "byte_boundary"
+  },
+  {
+    "input_val": 32768,
+    "expected": 48,
+    "description": "MSB of byte 1 set",
+    "category": "byte_boundary"
+  },
+  {
+    "input_val": 8388608,
+    "expected": 40,
+    "description": "MSB of byte 2 set",
+    "category": "byte_boundary"
+  },
+  {
+    "input_val": 2147483648,
+    "expected": 32,
+    "description": "MSB of byte 3 set",
+    "category": "byte_boundary"
+  },
+  {
+    "input_val": 549755813888,
+    "expected": 24,
+    "description": "MSB of byte 4 set",
+    "category": "byte_boundary"
+  },
+  {
+    "input_val": 140737488355328,
+    "expected": 16,
+    "description": "MSB of byte 5 set",
+    "category": "byte_boundary"
+  },
+  {
+    "input_val": 36028797018963968,
+    "expected": 8,
+    "description": "MSB of byte 6 set",
+    "category": "byte_boundary"
+  },
+  {
+    "input_val": 9223372036854775808,
+    "expected": 0,
+    "description": "MSB of byte 7 set",
+    "category": "byte_boundary"
+  },
+  {
+    "input_val": 81985529216486895,
+    "expected": 7,
+    "description": "Sequential nibbles ascending",
+    "category": "sequential"
+  },
+  {
+    "input_val": 18364758544493064720,
+    "expected": 0,
+    "description": "Sequential nibbles descending",
+    "category": "sequential"
+  },
+  {
+    "input_val": 1,
+    "expected": 63,
+    "description": "Minimum non-zero",
+    "category": "sequential"
+  },
+  {
+    "input_val": 9223372036854775807,
+    "expected": 1,
+    "description": "Maximum positive signed",
+    "category": "sequential"
+  },
+  {
+    "input_val": 9223372036854775808,
+    "expected": 0,
+    "description": "Minimum negative signed (MSB set)",
+    "category": "sequential"
+  },
+  {
+    "input_val": 1229782938247303441,
+    "expected": 3,
+    "description": "Bits set every 4 positions",
+    "category": "sparse"
+  },
+  {
+    "input_val": 72340172838076673,
+    "expected": 7,
+    "description": "Bits set every 8 positions",
+    "category": "sparse"
+  },
+  {
+    "input_val": 281479271743489,
+    "expected": 15,
+    "description": "Bits set every 16 positions",
+    "category": "sparse"
+  },
+  {
+    "input_val": 0,
+    "expected": 64,
+    "description": "all zeros",
+    "category": "edge"
+  },
+  {
+    "input_val": 9223372036854775808,
+    "expected": 0,
+    "description": "MSB set",
+    "category": "edge"
+  },
+  {
+    "input_val": 1,
+    "expected": 63,
+    "description": "LSB set",
+    "category": "edge"
+  },
+  {
+    "input_val": 18446744073709551615,
+    "expected": 0,
+    "description": "all ones",
+    "category": "edge"
+  },
+  {
+    "input_val": 2,
+    "expected": 62,
+    "description": "2nd bit set",
+    "category": "boundary"
+  },
+  {
+    "input_val": 4,
+    "expected": 61,
+    "description": "3rd bit set",
+    "category": "boundary"
+  },
+  {
+    "input_val": 8,
+    "expected": 60,
+    "description": "4th bit set",
+    "category": "boundary"
+  },
+  {
+    "input_val": 16,
+    "expected": 59,
+    "description": "5th bit set",
+    "category": "boundary"
+  },
+  {
+    "input_val": 32,
+    "expected": 58,
+    "description": "6th bit set",
+    "category": "boundary"
+  },
+  {
+    "input_val": 64,
+    "expected": 57,
+    "description": "7th bit set",
+    "category": "boundary"
+  },
+  {
+    "input_val": 128,
+    "expected": 56,
+    "description": "8th bit set",
+    "category": "boundary"
+  },
+  {
+    "input_val": 256,
+    "expected": 55,
+    "description": "9th bit set",
+    "category": "boundary"
+  },
+  {
+    "input_val": 512,
+    "expected": 54,
+    "description": "10th bit set",
+    "category": "boundary"
+  },
+  {
+    "input_val": 1024,
+    "expected": 53,
+    "description": "11th bit set",
+    "category": "boundary"
+  },
+  {
+    "input_val": 4611686018427387904,
+    "expected": 1,
+    "description": "32nd bit set",
+    "category": "pattern"
+  },
+  {
+    "input_val": 0,
+    "expected": 64,
+    "description": "all zeros",
+    "category": "edge"
+  },
+  {
+    "input_val": 18446744073709551615,
+    "expected": 0,
+    "description": "all ones",
+    "category": "edge"
+  },
+  {
+    "input_val": 9223372036854775808,
+    "expected": 0,
+    "description": "MSB set",
+    "category": "edge"
+  },
+  {
+    "input_val": 1,
+    "expected": 63,
+    "description": "LSB set",
+    "category": "edge"
+  },
+  {
+    "input_val": 18446744073709551599,
+    "expected": 0,
+    "description": "multiple consecutive 1s starting from MSB",
+    "category": "pattern"
+  },
+  {
+    "input_val": 18446744073709551598,
+    "expected": 0,
+    "description": "multiple consecutive 1s starting from MSB",
+    "category": "pattern"
+  },
+  {
+    "input_val": 18446744073709551597,
+    "expected": 0,
+    "description": "multiple consecutive 1s starting from MSB",
+    "category": "pattern"
+  },
+  {
+    "input_val": 18446744073709551596,
+    "expected": 0,
+    "description": "multiple consecutive 1s starting from MSB",
+    "category": "pattern"
+  },
+  {
+    "input_val": 18446744073709551595,
+    "expected": 0,
+    "description": "multiple consecutive 1s starting from MSB",
+    "category": "pattern"
+  },
+  {
+    "input_val": 1099511627776,
+    "expected": 23,
+    "description": "2^40",
+    "category": "power"
+  },
+  {
+    "input_val": 1152921504606846976,
+    "expected": 3,
+    "description": "2^60",
+    "category": "power"
+  },
+  {
+    "input_val": 72057594037927936,
+    "expected": 7,
+    "description": "2^56",
+    "category": "power"
+  },
+  {
+    "input_val": 144115188075855872,
+    "expected": 6,
+    "description": "2^57",
+    "category": "power"
+  },
+  {
+    "input_val": 288230376151711744,
+    "expected": 5,
+    "description": "2^58",
+    "category": "power"
+  },
+  {
+    "input_val": 576460752303423488,
+    "expected": 4,
+    "description": "2^59",
+    "category": "power"
+  },
+  {
+    "input_val": 0,
+    "expected": 64,
+    "description": "all zeros",
+    "category": "edge"
+  },
+  {
+    "input_val": 9223372036854775808,
+    "expected": 0,
+    "description": "MSB set",
+    "category": "edge"
+  },
+  {
+    "input_val": 18446744073709551615,
+    "expected": 0,
+    "description": "all ones",
+    "category": "edge"
+  },
+  {
+    "input_val": 1,
+    "expected": 63,
+    "description": "single bit set at LSB",
+    "category": "edge"
+  },
+  {
+    "input_val": 72057594037927936,
+    "expected": 7,
+    "description": "alternating bits 1",
+    "category": "pattern"
+  },
+  {
+    "input_val": 144115188075855872,
+    "expected": 6,
+    "description": "alternating bits 2",
+    "category": "pattern"
+  },
+  {
+    "input_val": 288230376151711744,
+    "expected": 5,
+    "description": "alternating bits 3",
+    "category": "pattern"
+  },
+  {
+    "input_val": 1152921504606846976,
+    "expected": 3,
+    "description": "2^40 with alternating bits",
+    "category": "power"
+  },
+  {
+    "input_val": 2305843009213693952,
+    "expected": 2,
+    "description": "2^41 with alternating bits",
+    "category": "power"
+  },
+  {
+    "input_val": 4611686018427387904,
+    "expected": 1,
+    "description": "2^42 with alternating bits",
+    "category": "power"
+  },
+  {
+    "input_val": 9223372036854775807,
+    "expected": 1,
+    "description": "all ones except MSB",
+    "category": "boundary"
+  },
+  {
+    "input_val": 4611686018427387903,
+    "expected": 2,
+    "description": "alternating bits with MSB set",
+    "category": "boundary"
+  },
+  {
+    "input_val": 1152921504606846975,
+    "expected": 4,
+    "description": "alternating bits with MSB and LSB set",
+    "category": "boundary"
+  },
+  {
+    "input_val": 57646075230342349,
+    "expected": 8,
+    "description": "random alternating bits",
+    "category": "random"
+  },
+  {
+    "input_val": 1311768467294899695,
+    "expected": 3,
+    "description": "random alternating bits 2",
+    "category": "random"
+  },
+  {
+    "input_val": 0,
+    "expected": 64,
+    "description": "all zeros",
+    "category": "edge"
+  },
+  {
+    "input_val": 18446744073709551615,
+    "expected": 0,
+    "description": "all ones",
+    "category": "edge"
+  },
+  {
+    "input_val": 9223372036854775808,
+    "expected": 0,
+    "description": "MSB set",
+    "category": "edge"
+  },
+  {
+    "input_val": 1,
+    "expected": 63,
+    "description": "LSB set",
+    "category": "edge"
+  },
+  {
+    "input_val": 2,
+    "expected": 62,
+    "description": "2^1",
+    "category": "power"
+  },
+  {
+    "input_val": 4,
+    "expected": 61,
+    "description": "2^2",
+    "category": "power"
+  },
+  {
+    "input_val": 8,
+    "expected": 60,
+    "description": "2^3",
+    "category": "power"
+  },
+  {
+    "input_val": 16,
+    "expected": 59,
+    "description": "2^4",
+    "category": "power"
+  },
+  {
+    "input_val": 256,
+    "expected": 55,
+    "description": "2^8",
+    "category": "power"
+  },
+  {
+    "input_val": 65536,
+    "expected": 47,
+    "description": "2^16",
+    "category": "power"
+  },
+  {
+    "input_val": 4294967296,
+    "expected": 31,
+    "description": "2^32",
+    "category": "power"
+  },
+  {
+    "input_val": 1099511627776,
+    "expected": 23,
+    "description": "2^40",
+    "category": "power"
+  },
+  {
+    "input_val": 1152921504606846976,
+    "expected": 3,
+    "description": "2^60",
+    "category": "power"
+  },
+  {
+    "input_val": 18446744073709551596,
+    "expected": 0,
+    "description": "2^64 - 20",
+    "category": "boundary"
+  },
+  {
+    "input_val": 18446744073709551614,
+    "expected": 0,
+    "description": "2^64 - 2",
+    "category": "boundary"
+  }
+]

@@ -1,0 +1,522 @@
+{
+  "summary": {
+    "total_bsv_cases": 90,
+    "total_ai_cases": 116,
+    "covered_cases": 85,
+    "missed_cases": 5,
+    "coverage_percentage": 94.44444444444444
+  },
+  "bsv_categories": {
+    "critical_zero": 1,
+    "critical_all_ones": 1,
+    "single_bit_position": 64,
+    "level1_boundary": 16,
+    "level2_boundary": 8,
+    "level3_boundary": 4,
+    "level4_boundary": 2,
+    "power_of_2": 64,
+    "consecutive_ones_msb": 13,
+    "alternating_pattern": 6,
+    "sequential_pattern": 4,
+    "sparse_pattern": 4
+  },
+  "missed_cases": [
+    {
+      "input_val": 9838263505978427528,
+      "expected_lz": 0,
+      "category": "sparse_pattern",
+      "description": "Bits every 4 positions from MSB",
+      "source": "bsv",
+      "edge_type": "no_leading_zeros",
+      "input_hex": "0x8888888888888888"
+    },
+    {
+      "input_val": 9259542123273814144,
+      "expected_lz": 0,
+      "category": "sparse_pattern",
+      "description": "Bits every 8 positions from MSB",
+      "source": "bsv",
+      "edge_type": "no_leading_zeros",
+      "input_hex": "0x8080808080808080"
+    },
+    {
+      "input_val": 17870283321406128128,
+      "expected_lz": 0,
+      "category": "consecutive_ones_msb",
+      "description": "5 consecutive ones from MSB",
+      "source": "bsv",
+      "edge_type": "no_leading_zeros",
+      "input_hex": "0xF800000000000000"
+    },
+    {
+      "input_val": 9223372039002259456,
+      "expected_lz": 0,
+      "category": "sparse_pattern",
+      "description": "Bits every 32 positions from MSB",
+      "source": "bsv",
+      "edge_type": "no_leading_zeros",
+      "input_hex": "0x8000000080000000"
+    },
+    {
+      "input_val": 9223512776490647552,
+      "expected_lz": 0,
+      "category": "sparse_pattern",
+      "description": "Bits every 16 positions from MSB",
+      "source": "bsv",
+      "edge_type": "no_leading_zeros",
+      "input_hex": "0x8000800080008000"
+    }
+  ],
+  "covered_cases": [
+    {
+      "input_val": 268435456,
+      "expected_lz": 35,
+      "category": "power_of_2",
+      "description": "2^28",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros_nibble_boundary",
+      "input_hex": "0x0000000010000000"
+    },
+    {
+      "input_val": 16,
+      "expected_lz": 59,
+      "category": "power_of_2",
+      "description": "2^4",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros_nibble_boundary",
+      "input_hex": "0x0000000000000010"
+    },
+    {
+      "input_val": 65536,
+      "expected_lz": 47,
+      "category": "power_of_2",
+      "description": "2^16",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros_16bit_boundary",
+      "input_hex": "0x0000000000010000"
+    },
+    {
+      "input_val": 2305843009213693952,
+      "expected_lz": 2,
+      "category": "power_of_2",
+      "description": "2^61",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_few_leading_zeros",
+      "input_hex": "0x2000000000000000"
+    },
+    {
+      "input_val": 12297829382473034410,
+      "expected_lz": 0,
+      "category": "alternating_pattern",
+      "description": "Alt 10101010",
+      "source": "bsv",
+      "edge_type": "no_leading_zeros",
+      "input_hex": "0xAAAAAAAAAAAAAAAA"
+    },
+    {
+      "input_val": 34359738368,
+      "expected_lz": 28,
+      "category": "power_of_2",
+      "description": "2^35",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_moderate_leading_zeros",
+      "input_hex": "0x0000000800000000"
+    },
+    {
+      "input_val": 128,
+      "expected_lz": 56,
+      "category": "power_of_2",
+      "description": "2^7",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000000000080"
+    },
+    {
+      "input_val": 536870912,
+      "expected_lz": 34,
+      "category": "power_of_2",
+      "description": "2^29",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000020000000"
+    },
+    {
+      "input_val": 2147483648,
+      "expected_lz": 32,
+      "category": "power_of_2",
+      "description": "2^31",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000080000000"
+    },
+    {
+      "input_val": 1073741824,
+      "expected_lz": 33,
+      "category": "power_of_2",
+      "description": "2^30",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000040000000"
+    },
+    {
+      "input_val": 67108864,
+      "expected_lz": 37,
+      "category": "power_of_2",
+      "description": "2^26",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000004000000"
+    },
+    {
+      "input_val": 4398046511104,
+      "expected_lz": 21,
+      "category": "power_of_2",
+      "description": "2^42",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_moderate_leading_zeros",
+      "input_hex": "0x0000040000000000"
+    },
+    {
+      "input_val": 8,
+      "expected_lz": 60,
+      "category": "power_of_2",
+      "description": "2^3",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000000000008"
+    },
+    {
+      "input_val": 281474976710656,
+      "expected_lz": 15,
+      "category": "power_of_2",
+      "description": "2^48",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_moderate_leading_zeros_16bit_boundary",
+      "input_hex": "0x0001000000000000"
+    },
+    {
+      "input_val": 18446744073709551615,
+      "expected_lz": 0,
+      "category": "consecutive_ones_msb",
+      "description": "64 consecutive ones from MSB",
+      "source": "bsv",
+      "edge_type": "all_ones_no_leading_zeros",
+      "input_hex": "0xFFFFFFFFFFFFFFFF"
+    },
+    {
+      "input_val": 32,
+      "expected_lz": 58,
+      "category": "power_of_2",
+      "description": "2^5",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000000000020"
+    },
+    {
+      "input_val": 288230376151711744,
+      "expected_lz": 5,
+      "category": "power_of_2",
+      "description": "2^58",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_few_leading_zeros",
+      "input_hex": "0x0400000000000000"
+    },
+    {
+      "input_val": 17592186044416,
+      "expected_lz": 19,
+      "category": "power_of_2",
+      "description": "2^44",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_moderate_leading_zeros_nibble_boundary",
+      "input_hex": "0x0000100000000000"
+    },
+    {
+      "input_val": 4,
+      "expected_lz": 61,
+      "category": "power_of_2",
+      "description": "2^2",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000000000004"
+    },
+    {
+      "input_val": 16140901064495857664,
+      "expected_lz": 0,
+      "category": "consecutive_ones_msb",
+      "description": "3 consecutive ones from MSB",
+      "source": "bsv",
+      "edge_type": "no_leading_zeros",
+      "input_hex": "0xE000000000000000"
+    },
+    {
+      "input_val": 1048576,
+      "expected_lz": 43,
+      "category": "power_of_2",
+      "description": "2^20",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros_nibble_boundary",
+      "input_hex": "0x0000000000100000"
+    },
+    {
+      "input_val": 131072,
+      "expected_lz": 46,
+      "category": "power_of_2",
+      "description": "2^17",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000000020000"
+    },
+    {
+      "input_val": 18446744073709486080,
+      "expected_lz": 0,
+      "category": "consecutive_ones_msb",
+      "description": "48 consecutive ones from MSB",
+      "source": "bsv",
+      "edge_type": "no_leading_zeros",
+      "input_hex": "0xFFFFFFFFFFFF0000"
+    },
+    {
+      "input_val": 0,
+      "expected_lz": 64,
+      "category": "critical_zero",
+      "description": "All zeros - maximum LZ",
+      "source": "bsv",
+      "edge_type": "all_zeros_all_leading_zeros",
+      "input_hex": "0x0000000000000000"
+    },
+    {
+      "input_val": 72057594037927936,
+      "expected_lz": 7,
+      "category": "power_of_2",
+      "description": "2^56",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_few_leading_zeros_byte_boundary",
+      "input_hex": "0x0100000000000000"
+    },
+    {
+      "input_val": 1085102592571150095,
+      "expected_lz": 4,
+      "category": "alternating_pattern",
+      "description": "Alt 00001111",
+      "source": "bsv",
+      "edge_type": "few_leading_zeros",
+      "input_hex": "0x0F0F0F0F0F0F0F0F"
+    },
+    {
+      "input_val": 1125899906842624,
+      "expected_lz": 13,
+      "category": "power_of_2",
+      "description": "2^50",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_moderate_leading_zeros",
+      "input_hex": "0x0004000000000000"
+    },
+    {
+      "input_val": 524288,
+      "expected_lz": 44,
+      "category": "power_of_2",
+      "description": "2^19",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000000080000"
+    },
+    {
+      "input_val": 18446744069414584320,
+      "expected_lz": 0,
+      "category": "consecutive_ones_msb",
+      "description": "32 consecutive ones from MSB",
+      "source": "bsv",
+      "edge_type": "no_leading_zeros",
+      "input_hex": "0xFFFFFFFF00000000"
+    },
+    {
+      "input_val": 562949953421312,
+      "expected_lz": 14,
+      "category": "power_of_2",
+      "description": "2^49",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_moderate_leading_zeros",
+      "input_hex": "0x0002000000000000"
+    },
+    {
+      "input_val": 68719476736,
+      "expected_lz": 27,
+      "category": "power_of_2",
+      "description": "2^36",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_moderate_leading_zeros_nibble_boundary",
+      "input_hex": "0x0000001000000000"
+    },
+    {
+      "input_val": 137438953472,
+      "expected_lz": 26,
+      "category": "power_of_2",
+      "description": "2^37",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_moderate_leading_zeros",
+      "input_hex": "0x0000002000000000"
+    },
+    {
+      "input_val": 144115188075855872,
+      "expected_lz": 6,
+      "category": "power_of_2",
+      "description": "2^57",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_few_leading_zeros",
+      "input_hex": "0x0200000000000000"
+    },
+    {
+      "input_val": 4611686018427387904,
+      "expected_lz": 1,
+      "category": "power_of_2",
+      "description": "2^62",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_few_leading_zeros",
+      "input_hex": "0x4000000000000000"
+    },
+    {
+      "input_val": 18014398509481984,
+      "expected_lz": 9,
+      "category": "power_of_2",
+      "description": "2^54",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_moderate_leading_zeros",
+      "input_hex": "0x0040000000000000"
+    },
+    {
+      "input_val": 33554432,
+      "expected_lz": 38,
+      "category": "power_of_2",
+      "description": "2^25",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000002000000"
+    },
+    {
+      "input_val": 8388608,
+      "expected_lz": 40,
+      "category": "power_of_2",
+      "description": "2^23",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000000800000"
+    },
+    {
+      "input_val": 1152921504606846976,
+      "expected_lz": 3,
+      "category": "power_of_2",
+      "description": "2^60",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_few_leading_zeros_nibble_boundary",
+      "input_hex": "0x1000000000000000"
+    },
+    {
+      "input_val": 18442240474082181120,
+      "expected_lz": 0,
+      "category": "consecutive_ones_msb",
+      "description": "12 consecutive ones from MSB",
+      "source": "bsv",
+      "edge_type": "no_leading_zeros",
+      "input_hex": "0xFFF0000000000000"
+    },
+    {
+      "input_val": 9223372036854775807,
+      "expected_lz": 1,
+      "category": "sequential_pattern",
+      "description": "Max signed positive",
+      "source": "bsv",
+      "edge_type": "few_leading_zeros",
+      "input_hex": "0x7FFFFFFFFFFFFFFF"
+    },
+    {
+      "input_val": 8192,
+      "expected_lz": 50,
+      "category": "power_of_2",
+      "description": "2^13",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000000002000"
+    },
+    {
+      "input_val": 81985529216486895,
+      "expected_lz": 7,
+      "category": "sequential_pattern",
+      "description": "Sequential ascending",
+      "source": "bsv",
+      "edge_type": "few_leading_zeros_byte_boundary",
+      "input_hex": "0x0123456789ABCDEF"
+    },
+    {
+      "input_val": 18364758544493064720,
+      "expected_lz": 0,
+      "category": "sequential_pattern",
+      "description": "Sequential descending",
+      "source": "bsv",
+      "edge_type": "no_leading_zeros",
+      "input_hex": "0xFEDCBA9876543210"
+    },
+    {
+      "input_val": 36028797018963968,
+      "expected_lz": 8,
+      "category": "power_of_2",
+      "description": "2^55",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_moderate_leading_zeros",
+      "input_hex": "0x0080000000000000"
+    },
+    {
+      "input_val": 4096,
+      "expected_lz": 51,
+      "category": "power_of_2",
+      "description": "2^12",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros_nibble_boundary",
+      "input_hex": "0x0000000000001000"
+    },
+    {
+      "input_val": 4194304,
+      "expected_lz": 41,
+      "category": "power_of_2",
+      "description": "2^22",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000000400000"
+    },
+    {
+      "input_val": 17361641481138401520,
+      "expected_lz": 0,
+      "category": "alternating_pattern",
+      "description": "Alt 11110000",
+      "source": "bsv",
+      "edge_type": "no_leading_zeros",
+      "input_hex": "0xF0F0F0F0F0F0F0F0"
+    },
+    {
+      "input_val": 16384,
+      "expected_lz": 49,
+      "category": "power_of_2",
+      "description": "2^14",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000000004000"
+    },
+    {
+      "input_val": 262144,
+      "expected_lz": 45,
+      "category": "power_of_2",
+      "description": "2^18",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_many_leading_zeros",
+      "input_hex": "0x0000000000040000"
+    },
+    {
+      "input_val": 9007199254740992,
+      "expected_lz": 10,
+      "category": "power_of_2",
+      "description": "2^53",
+      "source": "bsv",
+      "edge_type": "power_of_2_single_bit_moderate_leading_zeros",
+      "input_hex": "0x0020000000000000"
+    }
+  ]
+}
