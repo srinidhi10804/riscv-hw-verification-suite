@@ -1,0 +1,2658 @@
+[
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": false,
+    "description": "DivByZero: 0/0 f3=4 w32=False",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": false,
+    "description": "DivByZero: MaxVal/0 f3=4 w32=False",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": false,
+    "description": "DivByZero: MinInt/0 f3=4 w32=False",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 5,
+    "word32": false,
+    "description": "DivByZero: 0/0 f3=5 w32=False",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "funct3": 5,
+    "word32": false,
+    "description": "DivByZero: MaxVal/0 f3=5 w32=False",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 0,
+    "funct3": 5,
+    "word32": false,
+    "description": "DivByZero: MinInt/0 f3=5 w32=False",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 6,
+    "word32": false,
+    "description": "DivByZero: 0/0 f3=6 w32=False",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "funct3": 6,
+    "word32": false,
+    "description": "DivByZero: MaxVal/0 f3=6 w32=False",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 0,
+    "funct3": 6,
+    "word32": false,
+    "description": "DivByZero: MinInt/0 f3=6 w32=False",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 7,
+    "word32": false,
+    "description": "DivByZero: 0/0 f3=7 w32=False",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "funct3": 7,
+    "word32": false,
+    "description": "DivByZero: MaxVal/0 f3=7 w32=False",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 0,
+    "funct3": 7,
+    "word32": false,
+    "description": "DivByZero: MinInt/0 f3=7 w32=False",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": true,
+    "description": "DivByZero: 0/0 f3=4 w32=True",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": true,
+    "description": "DivByZero: MaxVal/0 f3=4 w32=True",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": true,
+    "description": "DivByZero: MinInt/0 f3=4 w32=True",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 5,
+    "word32": true,
+    "description": "DivByZero: 0/0 f3=5 w32=True",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "funct3": 5,
+    "word32": true,
+    "description": "DivByZero: MaxVal/0 f3=5 w32=True",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 0,
+    "funct3": 5,
+    "word32": true,
+    "description": "DivByZero: MinInt/0 f3=5 w32=True",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 6,
+    "word32": true,
+    "description": "DivByZero: 0/0 f3=6 w32=True",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "funct3": 6,
+    "word32": true,
+    "description": "DivByZero: MaxVal/0 f3=6 w32=True",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 0,
+    "funct3": 6,
+    "word32": true,
+    "description": "DivByZero: MinInt/0 f3=6 w32=True",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 7,
+    "word32": true,
+    "description": "DivByZero: 0/0 f3=7 w32=True",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 0,
+    "funct3": 7,
+    "word32": true,
+    "description": "DivByZero: MaxVal/0 f3=7 w32=True",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 0,
+    "funct3": 7,
+    "word32": true,
+    "description": "DivByZero: MinInt/0 f3=7 w32=True",
+    "category": "div_by_zero"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": -1,
+    "funct3": 4,
+    "word32": false,
+    "description": "SignedOvf: MinInt/-1 f3=4 w32=False",
+    "category": "signed_overflow"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": -1,
+    "funct3": 6,
+    "word32": false,
+    "description": "SignedOvf: MinInt/-1 f3=6 w32=False",
+    "category": "signed_overflow"
+  },
+  {
+    "dividend": -2147483648,
+    "divisor": -1,
+    "funct3": 4,
+    "word32": true,
+    "description": "SignedOvf: MinInt/-1 f3=4 w32=True",
+    "category": "signed_overflow"
+  },
+  {
+    "dividend": -2147483648,
+    "divisor": -1,
+    "funct3": 6,
+    "word32": true,
+    "description": "SignedOvf: MinInt/-1 f3=6 w32=True",
+    "category": "signed_overflow"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "Equal: 1/1 f3=4",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "Equal: 1/1 f3=5",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "Equal: 1/1 f3=6",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "Equal: 1/1 f3=7",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "Equal: 2/2 f3=4",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": false,
+    "description": "Equal: 2/2 f3=5",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": false,
+    "description": "Equal: 2/2 f3=6",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "funct3": 7,
+    "word32": false,
+    "description": "Equal: 2/2 f3=7",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 100,
+    "divisor": 100,
+    "funct3": 4,
+    "word32": false,
+    "description": "Equal: 100/100 f3=4",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 100,
+    "divisor": 100,
+    "funct3": 5,
+    "word32": false,
+    "description": "Equal: 100/100 f3=5",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 100,
+    "divisor": 100,
+    "funct3": 6,
+    "word32": false,
+    "description": "Equal: 100/100 f3=6",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 100,
+    "divisor": 100,
+    "funct3": 7,
+    "word32": false,
+    "description": "Equal: 100/100 f3=7",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2147483647,
+    "funct3": 4,
+    "word32": false,
+    "description": "Equal: 2147483647/2147483647 f3=4",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2147483647,
+    "funct3": 5,
+    "word32": false,
+    "description": "Equal: 2147483647/2147483647 f3=5",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2147483647,
+    "funct3": 6,
+    "word32": false,
+    "description": "Equal: 2147483647/2147483647 f3=6",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2147483647,
+    "funct3": 7,
+    "word32": false,
+    "description": "Equal: 2147483647/2147483647 f3=7",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 9223372036854775807,
+    "funct3": 4,
+    "word32": false,
+    "description": "Equal: 9223372036854775807/9223372036854775807 f3=4",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 9223372036854775807,
+    "funct3": 5,
+    "word32": false,
+    "description": "Equal: 9223372036854775807/9223372036854775807 f3=5",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 9223372036854775807,
+    "funct3": 6,
+    "word32": false,
+    "description": "Equal: 9223372036854775807/9223372036854775807 f3=6",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 9223372036854775807,
+    "funct3": 7,
+    "word32": false,
+    "description": "Equal: 9223372036854775807/9223372036854775807 f3=7",
+    "category": "equal_operands"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DivBy1: 0/1 f3=4",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "DivBy1: 0/1 f3=5",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "DivBy1: 0/1 f3=6",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "DivBy1: 0/1 f3=7",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DivBy1: 1/1 f3=4",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "DivBy1: 1/1 f3=5",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "DivBy1: 1/1 f3=6",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "DivBy1: 1/1 f3=7",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": -1,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DivBy1: -1/1 f3=4",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": -1,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "DivBy1: -1/1 f3=5",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": -1,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "DivBy1: -1/1 f3=6",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": -1,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "DivBy1: -1/1 f3=7",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 100,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DivBy1: 100/1 f3=4",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 100,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "DivBy1: 100/1 f3=5",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 100,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "DivBy1: 100/1 f3=6",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 100,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "DivBy1: 100/1 f3=7",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": -100,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DivBy1: -100/1 f3=4",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": -100,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "DivBy1: -100/1 f3=5",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": -100,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "DivBy1: -100/1 f3=6",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": -100,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "DivBy1: -100/1 f3=7",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DivBy1: -9223372036854775808/1 f3=4",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "DivBy1: -9223372036854775808/1 f3=5",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "DivBy1: -9223372036854775808/1 f3=6",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "DivBy1: -9223372036854775808/1 f3=7",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DivBy1: 9223372036854775807/1 f3=4",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "DivBy1: 9223372036854775807/1 f3=5",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "DivBy1: 9223372036854775807/1 f3=6",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "DivBy1: 9223372036854775807/1 f3=7",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DivBy1: 18446744073709551615/1 f3=4",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "DivBy1: 18446744073709551615/1 f3=5",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "DivBy1: 18446744073709551615/1 f3=6",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "DivBy1: 18446744073709551615/1 f3=7",
+    "category": "div_by_one"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2147483647,
+    "funct3": 4,
+    "word32": true,
+    "description": "Word32 MaxInt32/MaxInt32 f3=4",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2147483647,
+    "funct3": 5,
+    "word32": true,
+    "description": "Word32 MaxInt32/MaxInt32 f3=5",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2147483647,
+    "funct3": 6,
+    "word32": true,
+    "description": "Word32 MaxInt32/MaxInt32 f3=6",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2147483647,
+    "funct3": 7,
+    "word32": true,
+    "description": "Word32 MaxInt32/MaxInt32 f3=7",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "funct3": 4,
+    "word32": true,
+    "description": "Word32 MinInt32/MinInt32 f3=4",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "funct3": 5,
+    "word32": true,
+    "description": "Word32 MinInt32/MinInt32 f3=5",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "funct3": 6,
+    "word32": true,
+    "description": "Word32 MinInt32/MinInt32 f3=6",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "funct3": 7,
+    "word32": true,
+    "description": "Word32 MinInt32/MinInt32 f3=7",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 4294967295,
+    "funct3": 4,
+    "word32": true,
+    "description": "Word32 AllOnes32/AllOnes32 f3=4",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 4294967295,
+    "funct3": 5,
+    "word32": true,
+    "description": "Word32 AllOnes32/AllOnes32 f3=5",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 4294967295,
+    "funct3": 6,
+    "word32": true,
+    "description": "Word32 AllOnes32/AllOnes32 f3=6",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 4294967295,
+    "funct3": 7,
+    "word32": true,
+    "description": "Word32 AllOnes32/AllOnes32 f3=7",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": true,
+    "description": "Word32 MaxInt32/2 f3=4",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": true,
+    "description": "Word32 MaxInt32/2 f3=5",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": true,
+    "description": "Word32 MaxInt32/2 f3=6",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2,
+    "funct3": 7,
+    "word32": true,
+    "description": "Word32 MaxInt32/2 f3=7",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": true,
+    "description": "Word32 MinInt32/2 f3=4",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": true,
+    "description": "Word32 MinInt32/2 f3=5",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": true,
+    "description": "Word32 MinInt32/2 f3=6",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2,
+    "funct3": 7,
+    "word32": true,
+    "description": "Word32 MinInt32/2 f3=7",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": -1,
+    "divisor": 2147483647,
+    "funct3": 4,
+    "word32": true,
+    "description": "Word32 -1/MaxInt32 f3=4",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": -1,
+    "divisor": 2147483647,
+    "funct3": 5,
+    "word32": true,
+    "description": "Word32 -1/MaxInt32 f3=5",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": -1,
+    "divisor": 2147483647,
+    "funct3": 6,
+    "word32": true,
+    "description": "Word32 -1/MaxInt32 f3=6",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": -1,
+    "divisor": 2147483647,
+    "funct3": 7,
+    "word32": true,
+    "description": "Word32 -1/MaxInt32 f3=7",
+    "category": "word32_mode"
+  },
+  {
+    "dividend": 100,
+    "divisor": -10,
+    "funct3": 4,
+    "word32": false,
+    "description": "SignMix Pos/Neg f3=4",
+    "category": "sign_mixing"
+  },
+  {
+    "dividend": 100,
+    "divisor": -10,
+    "funct3": 6,
+    "word32": false,
+    "description": "SignMix Pos/Neg f3=6",
+    "category": "sign_mixing"
+  },
+  {
+    "dividend": -100,
+    "divisor": 10,
+    "funct3": 4,
+    "word32": false,
+    "description": "SignMix Neg/Pos f3=4",
+    "category": "sign_mixing"
+  },
+  {
+    "dividend": -100,
+    "divisor": 10,
+    "funct3": 6,
+    "word32": false,
+    "description": "SignMix Neg/Pos f3=6",
+    "category": "sign_mixing"
+  },
+  {
+    "dividend": -100,
+    "divisor": -10,
+    "funct3": 4,
+    "word32": false,
+    "description": "SignMix Neg/Neg f3=4",
+    "category": "sign_mixing"
+  },
+  {
+    "dividend": -100,
+    "divisor": -10,
+    "funct3": 6,
+    "word32": false,
+    "description": "SignMix Neg/Neg f3=6",
+    "category": "sign_mixing"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": -1,
+    "funct3": 4,
+    "word32": false,
+    "description": "SignMix MaxInt/-1 f3=4",
+    "category": "sign_mixing"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": -1,
+    "funct3": 6,
+    "word32": false,
+    "description": "SignMix MaxInt/-1 f3=6",
+    "category": "sign_mixing"
+  },
+  {
+    "dividend": -1,
+    "divisor": 9223372036854775807,
+    "funct3": 4,
+    "word32": false,
+    "description": "SignMix -1/MaxInt f3=4",
+    "category": "sign_mixing"
+  },
+  {
+    "dividend": -1,
+    "divisor": 9223372036854775807,
+    "funct3": 6,
+    "word32": false,
+    "description": "SignMix -1/MaxInt f3=6",
+    "category": "sign_mixing"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^1/2^1 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 2,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^1/2^1 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 4,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^2/2^1 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 4,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^2/2^1 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 64,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^6/2^1 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 64,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^6/2^1 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^63/2^1 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^63/2^1 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 4,
+    "divisor": 4,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^2/2^2 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 4,
+    "divisor": 4,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^2/2^2 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 8,
+    "divisor": 4,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^3/2^2 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 8,
+    "divisor": 4,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^3/2^2 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 128,
+    "divisor": 4,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^7/2^2 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 128,
+    "divisor": 4,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^7/2^2 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 4,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^63/2^2 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 4,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^63/2^2 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 16,
+    "divisor": 16,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^4/2^4 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 16,
+    "divisor": 16,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^4/2^4 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 32,
+    "divisor": 16,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^5/2^4 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 32,
+    "divisor": 16,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^5/2^4 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 512,
+    "divisor": 16,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^9/2^4 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 512,
+    "divisor": 16,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^9/2^4 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 16,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^63/2^4 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 16,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^63/2^4 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 256,
+    "divisor": 256,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^8/2^8 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 256,
+    "divisor": 256,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^8/2^8 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 512,
+    "divisor": 256,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^9/2^8 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 512,
+    "divisor": 256,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^9/2^8 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 8192,
+    "divisor": 256,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^13/2^8 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 8192,
+    "divisor": 256,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^13/2^8 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 256,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^63/2^8 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 256,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^63/2^8 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 65536,
+    "divisor": 65536,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^16/2^16 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 65536,
+    "divisor": 65536,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^16/2^16 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 131072,
+    "divisor": 65536,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^17/2^16 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 131072,
+    "divisor": 65536,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^17/2^16 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 2097152,
+    "divisor": 65536,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^21/2^16 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 2097152,
+    "divisor": 65536,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^21/2^16 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 65536,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^63/2^16 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 65536,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^63/2^16 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^31/2^31 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 2147483648,
+    "divisor": 2147483648,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^31/2^31 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 4294967296,
+    "divisor": 2147483648,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^32/2^31 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 4294967296,
+    "divisor": 2147483648,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^32/2^31 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 68719476736,
+    "divisor": 2147483648,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^36/2^31 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 68719476736,
+    "divisor": 2147483648,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^36/2^31 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 2147483648,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^63/2^31 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 2147483648,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^63/2^31 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 4294967296,
+    "divisor": 4294967296,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^32/2^32 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 4294967296,
+    "divisor": 4294967296,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^32/2^32 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 8589934592,
+    "divisor": 4294967296,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^33/2^32 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 8589934592,
+    "divisor": 4294967296,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^33/2^32 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 137438953472,
+    "divisor": 4294967296,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^37/2^32 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 137438953472,
+    "divisor": 4294967296,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^37/2^32 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 4294967296,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^63/2^32 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 4294967296,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^63/2^32 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775808,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^63/2^63 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775808,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^63/2^63 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775808,
+    "funct3": 4,
+    "word32": false,
+    "description": "Power2: 2^63/2^63 f3=4",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 9223372036854775808,
+    "divisor": 9223372036854775808,
+    "funct3": 5,
+    "word32": false,
+    "description": "Power2: 2^63/2^63 f3=5",
+    "category": "power_of_2"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "Boundary: 0x0/1 f3=4",
+    "category": "boundary"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "Boundary: 0x0/1 f3=5",
+    "category": "boundary"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "Boundary: 0x0/1 f3=6",
+    "category": "boundary"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "Boundary: 0x0/1 f3=7",
+    "category": "boundary"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "Boundary: 0x1/1 f3=4",
+    "category": "boundary"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "Boundary: 0x1/1 f3=5",
+    "category": "boundary"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "Boundary: 0x1/1 f3=6",
+    "category": "boundary"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "Boundary: 0x1/1 f3=7",
+    "category": "boundary"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "Boundary: 0xffffffffffffffff/1 f3=4",
+    "category": "boundary"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "Boundary: 0xffffffffffffffff/1 f3=5",
+    "category": "boundary"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "Boundary: 0xffffffffffffffff/1 f3=6",
+    "category": "boundary"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "Boundary: 0xffffffffffffffff/1 f3=7",
+    "category": "boundary"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "Boundary: -9223372036854775808/2 f3=4",
+    "category": "boundary"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": false,
+    "description": "Boundary: -9223372036854775808/2 f3=5",
+    "category": "boundary"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": false,
+    "description": "Boundary: -9223372036854775808/2 f3=6",
+    "category": "boundary"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 2,
+    "funct3": 7,
+    "word32": false,
+    "description": "Boundary: -9223372036854775808/2 f3=7",
+    "category": "boundary"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "Boundary: 0x7fffffffffffffff/2 f3=4",
+    "category": "boundary"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": false,
+    "description": "Boundary: 0x7fffffffffffffff/2 f3=5",
+    "category": "boundary"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": false,
+    "description": "Boundary: 0x7fffffffffffffff/2 f3=6",
+    "category": "boundary"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 2,
+    "funct3": 7,
+    "word32": false,
+    "description": "Boundary: 0x7fffffffffffffff/2 f3=7",
+    "category": "boundary"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 18446744073709551615,
+    "funct3": 4,
+    "word32": false,
+    "description": "Boundary: 0xffffffffffffffff/18446744073709551615 f3=4",
+    "category": "boundary"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 18446744073709551615,
+    "funct3": 5,
+    "word32": false,
+    "description": "Boundary: 0xffffffffffffffff/18446744073709551615 f3=5",
+    "category": "boundary"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 18446744073709551615,
+    "funct3": 6,
+    "word32": false,
+    "description": "Boundary: 0xffffffffffffffff/18446744073709551615 f3=6",
+    "category": "boundary"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 18446744073709551615,
+    "funct3": 7,
+    "word32": false,
+    "description": "Boundary: 0xffffffffffffffff/18446744073709551615 f3=7",
+    "category": "boundary"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "Boundary: 0xffffffffffffffff/2 f3=4",
+    "category": "boundary"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": false,
+    "description": "Boundary: 0xffffffffffffffff/2 f3=5",
+    "category": "boundary"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": false,
+    "description": "Boundary: 0xffffffffffffffff/2 f3=6",
+    "category": "boundary"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 2,
+    "funct3": 7,
+    "word32": false,
+    "description": "Boundary: 0xffffffffffffffff/2 f3=7",
+    "category": "boundary"
+  },
+  {
+    "dividend": 10,
+    "divisor": 3,
+    "funct3": 6,
+    "word32": false,
+    "description": "Remainder 10%3=1 f3=6",
+    "category": "remainder"
+  },
+  {
+    "dividend": 10,
+    "divisor": 3,
+    "funct3": 7,
+    "word32": false,
+    "description": "Remainder 10%3=1 f3=7",
+    "category": "remainder"
+  },
+  {
+    "dividend": 100,
+    "divisor": 7,
+    "funct3": 6,
+    "word32": false,
+    "description": "Remainder 100%7=2 f3=6",
+    "category": "remainder"
+  },
+  {
+    "dividend": 100,
+    "divisor": 7,
+    "funct3": 7,
+    "word32": false,
+    "description": "Remainder 100%7=2 f3=7",
+    "category": "remainder"
+  },
+  {
+    "dividend": -10,
+    "divisor": 3,
+    "funct3": 6,
+    "word32": false,
+    "description": "Remainder -10%3 f3=6",
+    "category": "remainder"
+  },
+  {
+    "dividend": -10,
+    "divisor": 3,
+    "funct3": 7,
+    "word32": false,
+    "description": "Remainder -10%3 f3=7",
+    "category": "remainder"
+  },
+  {
+    "dividend": 10,
+    "divisor": -3,
+    "funct3": 6,
+    "word32": false,
+    "description": "Remainder 10%-3 f3=6",
+    "category": "remainder"
+  },
+  {
+    "dividend": 10,
+    "divisor": -3,
+    "funct3": 7,
+    "word32": false,
+    "description": "Remainder 10%-3 f3=7",
+    "category": "remainder"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 10,
+    "funct3": 6,
+    "word32": false,
+    "description": "Remainder MaxInt%10 f3=6",
+    "category": "remainder"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 10,
+    "funct3": 7,
+    "word32": false,
+    "description": "Remainder MaxInt%10 f3=7",
+    "category": "remainder"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": false,
+    "description": "division by zero with zero dividend and signed division",
+    "category": "edge"
+  },
+  {
+    "dividend": 1234567890,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": false,
+    "description": "division by zero with large dividend and signed division",
+    "category": "edge"
+  },
+  {
+    "dividend": -1234567890,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": false,
+    "description": "division by zero with negative dividend and signed division",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 5,
+    "word32": false,
+    "description": "division by zero with zero dividend and unsigned division",
+    "category": "edge"
+  },
+  {
+    "dividend": 1234567890,
+    "divisor": 0,
+    "funct3": 5,
+    "word32": false,
+    "description": "division by zero with large dividend and unsigned division",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 6,
+    "word32": false,
+    "description": "division by zero with zero dividend and signed remainder",
+    "category": "edge"
+  },
+  {
+    "dividend": 1234567890,
+    "divisor": 0,
+    "funct3": 6,
+    "word32": false,
+    "description": "division by zero with large dividend and signed remainder",
+    "category": "edge"
+  },
+  {
+    "dividend": -1234567890,
+    "divisor": 0,
+    "funct3": 6,
+    "word32": false,
+    "description": "division by zero with negative dividend and signed remainder",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 7,
+    "word32": false,
+    "description": "division by zero with zero dividend and unsigned remainder",
+    "category": "edge"
+  },
+  {
+    "dividend": 1234567890,
+    "divisor": 0,
+    "funct3": 7,
+    "word32": false,
+    "description": "division by zero with large dividend and unsigned remainder",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": true,
+    "description": "division by zero with zero dividend, signed division and 32-bit word",
+    "category": "edge"
+  },
+  {
+    "dividend": 1234567890,
+    "divisor": 0,
+    "funct3": 5,
+    "word32": true,
+    "description": "division by zero with large dividend, unsigned division and 32-bit word",
+    "category": "edge"
+  },
+  {
+    "dividend": -1234567890,
+    "divisor": 0,
+    "funct3": 6,
+    "word32": true,
+    "description": "division by zero with negative dividend, signed remainder and 32-bit word",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 7,
+    "word32": true,
+    "description": "division by zero with zero dividend, unsigned remainder and 32-bit word",
+    "category": "edge"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 0,
+    "funct3": 5,
+    "word32": true,
+    "description": "division by zero with max 32-bit unsigned dividend and unsigned division",
+    "category": "edge"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": -1,
+    "funct3": 4,
+    "word32": false,
+    "description": "MinInt division by -1",
+    "category": "edge"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "MaxInt division by 1",
+    "category": "edge"
+  },
+  {
+    "dividend": 10,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "Simple division",
+    "category": "general"
+  },
+  {
+    "dividend": 10,
+    "divisor": 3,
+    "funct3": 4,
+    "word32": false,
+    "description": "Division with remainder",
+    "category": "general"
+  },
+  {
+    "dividend": -10,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "Negative dividend division",
+    "category": "general"
+  },
+  {
+    "dividend": 10,
+    "divisor": -2,
+    "funct3": 4,
+    "word32": false,
+    "description": "Negative divisor division",
+    "category": "general"
+  },
+  {
+    "dividend": -10,
+    "divisor": -2,
+    "funct3": 4,
+    "word32": false,
+    "description": "Negative dividend and divisor division",
+    "category": "general"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "Zero dividend division",
+    "category": "edge"
+  },
+  {
+    "dividend": 1,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": false,
+    "description": "Division by zero",
+    "category": "exception"
+  },
+  {
+    "dividend": 10,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": false,
+    "description": "Simple unsigned division",
+    "category": "general"
+  },
+  {
+    "dividend": 10,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": false,
+    "description": "Simple remainder",
+    "category": "general"
+  },
+  {
+    "dividend": 10,
+    "divisor": 2,
+    "funct3": 7,
+    "word32": false,
+    "description": "Simple unsigned remainder",
+    "category": "general"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": true,
+    "description": "Max 32-bit Int division by 1",
+    "category": "edge"
+  },
+  {
+    "dividend": -2147483648,
+    "divisor": -1,
+    "funct3": 4,
+    "word32": true,
+    "description": "Min 32-bit Int division by -1",
+    "category": "edge"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": true,
+    "description": "Max 32-bit UInt division by 1",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV: dividend equals divisor (zero)",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 5,
+    "word32": false,
+    "description": "DIVU: dividend equals divisor (zero)",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 6,
+    "word32": false,
+    "description": "REM: dividend equals divisor (zero)",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 0,
+    "funct3": 7,
+    "word32": false,
+    "description": "REMU: dividend equals divisor (zero)",
+    "category": "edge"
+  },
+  {
+    "dividend": 10,
+    "divisor": 10,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV: dividend equals divisor (positive)",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": 10,
+    "funct3": 5,
+    "word32": false,
+    "description": "DIVU: dividend equals divisor (positive)",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": 10,
+    "funct3": 6,
+    "word32": false,
+    "description": "REM: dividend equals divisor (positive)",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": 10,
+    "funct3": 7,
+    "word32": false,
+    "description": "REMU: dividend equals divisor (positive)",
+    "category": "basic"
+  },
+  {
+    "dividend": -10,
+    "divisor": -10,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV: dividend equals divisor (negative)",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": 10,
+    "funct3": 4,
+    "word32": true,
+    "description": "DIV (32-bit): dividend equals divisor (positive)",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": 10,
+    "funct3": 5,
+    "word32": true,
+    "description": "DIVU (32-bit): dividend equals divisor (positive)",
+    "category": "basic"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2147483647,
+    "funct3": 4,
+    "word32": true,
+    "description": "DIV (32-bit): dividend equals divisor (max positive)",
+    "category": "edge"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 4294967295,
+    "funct3": 5,
+    "word32": true,
+    "description": "DIVU (32-bit): dividend equals divisor (max unsigned)",
+    "category": "edge"
+  },
+  {
+    "dividend": -2147483648,
+    "divisor": -2147483648,
+    "funct3": 4,
+    "word32": true,
+    "description": "DIV (32-bit): dividend equals divisor (min negative)",
+    "category": "edge"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 9223372036854775807,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV: dividend equals divisor (max positive 64-bit)",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV with zero dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV with minimum positive dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": -1,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV with minimum negative dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV with maximum 32-bit signed dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": -2147483648,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV with minimum 32-bit signed dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "DIVU with maximum 32-bit unsigned dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "DIVU with zero dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "DIVU with minimum positive dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 9223372036854775807,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV with maximum 64-bit signed dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": -9223372036854775808,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV with minimum 64-bit signed dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 18446744073709551615,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "DIVU with maximum 64-bit unsigned dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "REM with zero dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "REM with minimum positive dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "REMU with zero dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 1,
+    "divisor": 1,
+    "funct3": 7,
+    "word32": false,
+    "description": "REMU with minimum positive dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV with power-of-2 divisor and zero dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": false,
+    "description": "DIVU with power-of-2 divisor and zero dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": false,
+    "description": "REM with power-of-2 divisor and zero dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 0,
+    "divisor": 2,
+    "funct3": 7,
+    "word32": false,
+    "description": "REMU with power-of-2 divisor and zero dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": -100,
+    "divisor": 4,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV with power-of-2 divisor and negative dividend",
+    "category": "normal"
+  },
+  {
+    "dividend": 100,
+    "divisor": 4,
+    "funct3": 5,
+    "word32": false,
+    "description": "DIVU with power-of-2 divisor and positive dividend",
+    "category": "normal"
+  },
+  {
+    "dividend": -100,
+    "divisor": 8,
+    "funct3": 6,
+    "word32": false,
+    "description": "REM with power-of-2 divisor and negative dividend",
+    "category": "normal"
+  },
+  {
+    "dividend": 100,
+    "divisor": 8,
+    "funct3": 7,
+    "word32": false,
+    "description": "REMU with power-of-2 divisor and positive dividend",
+    "category": "normal"
+  },
+  {
+    "dividend": 100,
+    "divisor": 16,
+    "funct3": 4,
+    "word32": false,
+    "description": "DIV with power-of-2 divisor and positive dividend",
+    "category": "normal"
+  },
+  {
+    "dividend": 100,
+    "divisor": 16,
+    "funct3": 5,
+    "word32": false,
+    "description": "DIVU with power-of-2 divisor and positive dividend",
+    "category": "normal"
+  },
+  {
+    "dividend": -100,
+    "divisor": 32,
+    "funct3": 6,
+    "word32": false,
+    "description": "REM with power-of-2 divisor and negative dividend",
+    "category": "normal"
+  },
+  {
+    "dividend": 100,
+    "divisor": 32,
+    "funct3": 7,
+    "word32": false,
+    "description": "REMU with power-of-2 divisor and positive dividend",
+    "category": "normal"
+  },
+  {
+    "dividend": 100,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": true,
+    "description": "DIV with power-of-2 divisor and positive dividend (32-bit)",
+    "category": "normal"
+  },
+  {
+    "dividend": 100,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": true,
+    "description": "DIVU with power-of-2 divisor and positive dividend (32-bit)",
+    "category": "normal"
+  },
+  {
+    "dividend": -100,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": true,
+    "description": "REM with power-of-2 divisor and negative dividend (32-bit)",
+    "category": "normal"
+  },
+  {
+    "dividend": 10,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "positive division",
+    "category": "basic"
+  },
+  {
+    "dividend": -10,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "negative division",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": -2,
+    "funct3": 4,
+    "word32": false,
+    "description": "positive dividend, negative divisor",
+    "category": "sign mixing"
+  },
+  {
+    "dividend": -10,
+    "divisor": -2,
+    "funct3": 4,
+    "word32": false,
+    "description": "negative dividend, negative divisor",
+    "category": "sign mixing"
+  },
+  {
+    "dividend": 10,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": false,
+    "description": "unsigned division",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": 3,
+    "funct3": 6,
+    "word32": false,
+    "description": "signed remainder",
+    "category": "basic"
+  },
+  {
+    "dividend": -10,
+    "divisor": 3,
+    "funct3": 6,
+    "word32": false,
+    "description": "negative signed remainder",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": 3,
+    "funct3": 7,
+    "word32": false,
+    "description": "unsigned remainder",
+    "category": "basic"
+  },
+  {
+    "dividend": 0,
+    "divisor": 10,
+    "funct3": 4,
+    "word32": false,
+    "description": "zero dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 10,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": false,
+    "description": "zero divisor",
+    "category": "edge"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": true,
+    "description": "max 32-bit signed",
+    "category": "edge"
+  },
+  {
+    "dividend": -2147483648,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": true,
+    "description": "min 32-bit signed",
+    "category": "edge"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": true,
+    "description": "max 32-bit unsigned",
+    "category": "edge"
+  },
+  {
+    "dividend": 10,
+    "divisor": -2,
+    "funct3": 5,
+    "word32": false,
+    "description": "unsigned division with negative divisor",
+    "category": "sign mixing"
+  },
+  {
+    "dividend": -10,
+    "divisor": 2,
+    "funct3": 5,
+    "word32": false,
+    "description": "unsigned division with negative dividend",
+    "category": "sign mixing"
+  },
+  {
+    "dividend": 10,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": false,
+    "description": "simple remainder",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": 3,
+    "funct3": 6,
+    "word32": false,
+    "description": "remainder with non-zero result",
+    "category": "basic"
+  },
+  {
+    "dividend": 0,
+    "divisor": 10,
+    "funct3": 6,
+    "word32": false,
+    "description": "remainder with zero dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 10,
+    "divisor": 0,
+    "funct3": 6,
+    "word32": false,
+    "description": "remainder with zero divisor",
+    "category": "edge"
+  },
+  {
+    "dividend": -10,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": false,
+    "description": "negative dividend remainder",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": -2,
+    "funct3": 6,
+    "word32": false,
+    "description": "negative divisor remainder",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": 2,
+    "funct3": 7,
+    "word32": false,
+    "description": "unsigned remainder",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": 10,
+    "funct3": 6,
+    "word32": false,
+    "description": "remainder with equal dividend and divisor",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": 1,
+    "funct3": 6,
+    "word32": false,
+    "description": "remainder with divisor 1",
+    "category": "basic"
+  },
+  {
+    "dividend": 10,
+    "divisor": -1,
+    "funct3": 6,
+    "word32": false,
+    "description": "remainder with divisor -1",
+    "category": "basic"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": true,
+    "description": "32-bit remainder with large dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 10,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": true,
+    "description": "32-bit remainder",
+    "category": "basic"
+  },
+  {
+    "dividend": -2147483648,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": true,
+    "description": "32-bit remainder with negative dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 10,
+    "divisor": 2,
+    "funct3": 7,
+    "word32": true,
+    "description": "32-bit unsigned remainder",
+    "category": "basic"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 2,
+    "funct3": 7,
+    "word32": true,
+    "description": "32-bit unsigned remainder with large dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 2147483647,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "max signed dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": false,
+    "description": "max unsigned dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": -2147483648,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": false,
+    "description": "min signed dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 10,
+    "divisor": 2,
+    "funct3": 4,
+    "word32": false,
+    "description": "simple division",
+    "category": "general"
+  },
+  {
+    "dividend": 10,
+    "divisor": 3,
+    "funct3": 6,
+    "word32": false,
+    "description": "simple remainder",
+    "category": "general"
+  },
+  {
+    "dividend": 100,
+    "divisor": 10,
+    "funct3": 5,
+    "word32": false,
+    "description": "exact division",
+    "category": "general"
+  },
+  {
+    "dividend": 7,
+    "divisor": 3,
+    "funct3": 7,
+    "word32": false,
+    "description": "unsigned remainder",
+    "category": "general"
+  },
+  {
+    "dividend": 0,
+    "divisor": 5,
+    "funct3": 4,
+    "word32": false,
+    "description": "zero dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 10,
+    "divisor": 0,
+    "funct3": 4,
+    "word32": false,
+    "description": "division by zero",
+    "category": "edge"
+  },
+  {
+    "dividend": 32767,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": true,
+    "description": "max signed 16-bit dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 65535,
+    "divisor": 1,
+    "funct3": 5,
+    "word32": true,
+    "description": "max unsigned 16-bit dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": -32768,
+    "divisor": 1,
+    "funct3": 4,
+    "word32": true,
+    "description": "min signed 16-bit dividend",
+    "category": "edge"
+  },
+  {
+    "dividend": 128,
+    "divisor": 2,
+    "funct3": 6,
+    "word32": true,
+    "description": "simple 16-bit remainder",
+    "category": "general"
+  },
+  {
+    "dividend": 255,
+    "divisor": 5,
+    "funct3": 7,
+    "word32": true,
+    "description": "unsigned 16-bit remainder",
+    "category": "general"
+  },
+  {
+    "dividend": 4294967295,
+    "divisor": 4294967295,
+    "funct3": 5,
+    "word32": false,
+    "description": "max unsigned dividend divided by itself",
+    "category": "edge"
+  }
+]

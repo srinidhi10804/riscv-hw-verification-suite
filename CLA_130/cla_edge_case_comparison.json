@@ -1,0 +1,37 @@
+{
+    "total_bsv_cases": 409,
+    "total_ai_cases": 599,
+    "overall_coverage": 100.0,
+    "category_wise": {
+        "ripple_carry_critical": {
+            "total_bsv": 6,
+            "ai_generated": 6,
+            "matched": 6,
+            "coverage_pct": 100.0
+        },
+        "adjacent_bits_critical": {
+            "total_bsv": 129,
+            "ai_generated": 129,
+            "matched": 129,
+            "coverage_pct": 100.0
+        },
+        "zero_overflow": {
+            "total_bsv": 7,
+            "ai_generated": 7,
+            "matched": 7,
+            "coverage_pct": 100.0
+        },
+        "carry_propagation_stage_critical": {
+            "total_bsv": 7,
+            "ai_generated": 7,
+            "matched": 7,
+            "coverage_pct": 100.0
+        },
+        "power_of_2_critical": {
+            "total_bsv": 260,
+            "ai_generated": 260,
+            "matched": 259,
+            "coverage_pct": 99.61538461538461
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "total_bsv_cases": 339,
+    "total_ai_cases": 610,
+    "overall_coverage": 97.04,
+    "category_wise": {
+        "div_by_zero": {
+            "total_bsv": 4,
+            "ai_generated": 5,
+            "matched": 4,
+            "coverage_pct": 100.0
+        },
+        "power_of_2": {
+            "total_bsv": 128,
+            "ai_generated": 232,
+            "matched": 128,
+            "coverage_pct": 100.0
+        },
+        "randomized_coverage": {
+            "total_bsv": 200,
+            "ai_generated": 360,
+            "matched": 190,
+            "coverage_pct": 95.0
+        },
+        "signed_overflow": {
+            "total_bsv": 5,
+            "ai_generated": 9,
+            "matched": 5,
+            "coverage_pct": 100.0
+        },
+        "zero_division": {
+            "total_bsv": 2,
+            "ai_generated": 4,
+            "matched": 2,
+            "coverage_pct": 100.0
+        }
+    }
+}
